@@ -1,21 +1,22 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { DefaultLayoutComponent } from './shared/default-layout/default-layout.component';
+import { LoginComponent } from './login/login.component';
 
 
 export const routes: Routes = [
   {
     path: '',
-    redirectTo: 'dashboard',
+    redirectTo: 'login',
     pathMatch: 'full',
   },
-/*   {
+  {
     path: 'login',
     component: LoginComponent,
     data: {
       title: 'Login Page'
     }
-  }, */
+  },
   {
     path: '',
     component: DefaultLayoutComponent,
@@ -36,7 +37,7 @@ export const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [ RouterModule.forRoot(routes) ],
-  exports: [ RouterModule ]
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }

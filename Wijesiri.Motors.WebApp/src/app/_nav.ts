@@ -7,6 +7,11 @@ export const navItems = [
       variant: 'info',
       text: 'NEW'
     }
+  },
+  {
+    name: 'Estimate',
+    url: '/estimate',
+    icon: 'icon-pie-chart'
   }/* ,
   {
     title: true,

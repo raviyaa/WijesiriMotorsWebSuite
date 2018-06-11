@@ -21,6 +21,7 @@ import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ChartsModule } from 'ng2-charts/ng2-charts';
 import { DefaultLayoutComponent } from './shared/default-layout/default-layout.component';
 import { SharedModule } from './shared/shared.module';
+import { LoginModule } from './login/login.module';
 
 @NgModule({
   imports: [
@@ -35,6 +36,7 @@ import { SharedModule } from './shared/shared.module';
     BsDropdownModule.forRoot(),
     TabsModule.forRoot(),
     ChartsModule,
+    LoginModule
   ],
   declarations: [
     AppComponent,
