@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { AuthenticationService } from '../../core/authentication.service';
 import * as _ from 'underscore';
+import { AuthenticationService } from '../../../core/authentication.service';
 
 @Component({
   selector: 'app-dashboard',

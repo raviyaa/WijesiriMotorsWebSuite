@@ -19,11 +19,11 @@ import { AppRoutingModule } from './app.routing';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ChartsModule } from 'ng2-charts/ng2-charts';
-import { DefaultLayoutComponent } from './shared/default-layout/default-layout.component';
 import { SharedModule } from './shared/shared.module';
 import { LoginModule } from './login/login.module';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { AuthenticationService } from './core/authentication.service';
+import { DefaultLayoutComponent } from './shared/components/default-layout/default-layout.component';
 
 @NgModule({
   imports: [
