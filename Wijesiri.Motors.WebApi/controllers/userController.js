@@ -25,6 +25,49 @@ function addUser(req, res) {
     });
 }
 
+function getListOfUsers(req, res) {
+    async.waterfall([
+        function (callback) {
+            userService.getListOfUsers(callback);
+        }
+    ], function (err, result) {
+        utils.processResponse(err, result, res);
+    });
+}
+
+function login(req, res) {
+    async.waterfall([
+        function (callback) {
+            console.log(req.body);
+            var criteria = {
+                email: req.body.email
+            }
+            console.log(criteria);
+            userService.login(criteria, callback);
+        }
+    ], function (err, result) {
+        utils.processResponse(err, result, res);
+    });
+}
+
+/* function login(req, res, next) {
+
+    var credentials = _.pick(req.body, 'username', 'password');
+
+    userService.login(credentials, function (err, result) {
+        if (err) {
+            return next(err);
+        }
+        req.data = {
+            statusCode: httpStatus.OK,
+            content: result
+        };
+        next();
+    });
+};
+ */
 module.exports = {
-    addUser: addUser
+    addUser: addUser,
+    getListOfUsers: getListOfUsers,
+    login: login
 };

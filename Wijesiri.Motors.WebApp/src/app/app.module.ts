@@ -22,6 +22,8 @@ import { ChartsModule } from 'ng2-charts/ng2-charts';
 import { DefaultLayoutComponent } from './shared/default-layout/default-layout.component';
 import { SharedModule } from './shared/shared.module';
 import { LoginModule } from './login/login.module';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { AuthenticationService } from './core/authentication.service';
 
 @NgModule({
   imports: [
@@ -29,6 +31,8 @@ import { LoginModule } from './login/login.module';
     AppRoutingModule,
     AppAsideModule,
     AppBreadcrumbModule.forRoot(),
+    FormsModule,
+    ReactiveFormsModule,
     AppFooterModule,
     AppHeaderModule,
     AppSidebarModule,
@@ -44,7 +48,7 @@ import { LoginModule } from './login/login.module';
   ],
   providers: [{
     provide: LocationStrategy,
-    useClass: HashLocationStrategy
+    useClass: HashLocationStrategy,
   }],
   bootstrap: [ AppComponent ]
 })

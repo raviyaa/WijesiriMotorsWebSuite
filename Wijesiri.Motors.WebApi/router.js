@@ -14,6 +14,8 @@ module.exports = function () {
     var router = express.Router(options);
 
     router.post('/addUser', userController.addUser);
+    router.get('/getListOfUsers', userController.getListOfUsers);
+    router.post('/login', userController.login);
 
     return router;
 };
