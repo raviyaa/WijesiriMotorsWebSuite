@@ -1,22 +1,13 @@
 {
-  "name": "@coreui/coreui-free-angular-admin-template",
+  "name": "worksop-management-system",
   "version": "2.0.0-rc.0",
-  "description": "CoreUI Free Angular 2+ Admin Template",
+  "description": "worksop-management-system for wijesiri motors",
   "author": {
-    "name": "Łukasz Holeczek",
-    "url": "http://holeczek.pl",
-    "github": "https://github.com/mrholek",
-    "twitter": "https://twitter.com/lukaszholeczek"
+    "name": "Ravindu Udayanga"
   },
-  "contributors": [
-    {
-      "name": "Andrzej Kopański",
-      "url": "https://github.com/xidedix"
-    }
-  ],
-  "homepage": "https://coreui.io/angular",
-  "copyright": "Copyright 2018 creativeLabs Łukasz Holeczek",
-  "license": "MIT",
+  "homepage": "https://facebook.com/raravindu",
+  "copyright": "Copyright 2018 Ravindu",
+  "license": "raviyaa",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
