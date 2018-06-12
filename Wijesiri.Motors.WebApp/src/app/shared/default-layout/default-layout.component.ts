@@ -1,5 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { navItems } from './../../_nav';
 import { AuthenticationService } from '../../core/authentication.service';
 import * as _ from 'underscore';
 
