@@ -1,0 +1,5251 @@
+{
+  "LOGIN": {
+    "TITLE": "Login to clovatel",
+    "USERNAME": "Email or username",
+    "PASSWORD": "Password",
+    "BTN_TEXT": "Login",
+    "FORGOT_PASSWORD": " Forgot Password",
+    "VALIDATION_MSG": "Password or Username not correct"
+  },
+  "BRANCH_SELECTION": {
+    "TITLE": "Select your branch",
+    "SELECT_BRANCH": "Select branch",
+    "BTN_TEXT": "OK"
+  },
+  "FORGOT_PASSWORD": {
+    "TITLE": "Forgot Password",
+    "USERNAME": "Username",
+    "SEND_BTN": "Send",
+    "CANCEL_BTN": "Cancel",
+    "OK_BTN": "OK",
+    "USERNAME_ERROR": "Given username not in the system.",
+    "EMAIL_SENDING_ERROR": "Email sending failed.",
+    "SUCCESS_MSG": "Please check your mail."
+  },
+  "USER_PROFILE_MODEL": {
+    "TITLE": "USER PROFILE SETTING",
+    "USER_NAME": "User name",
+    "RESET_PASSWORD": "Reset password",
+    "DISPLAY_NAME": "Display name",
+    "PASSWORD": "Password",
+    "EMAIL": "Email",
+    "NEW_PASSWORD": "New password",
+    "RE_TYPE_PASSWORD": "Re type password",
+    "SAVE": "Save",
+    "CANCEL": "Cancel",
+    "VALIDATIONS": {
+        "password": {
+          "required": "Password is required.",
+          "minlength": "Password should have at least 5 characters."         
+        },
+        "newPassword": {
+          "required": "Password is required.",
+          "minlength": "newPassword should have at least 5 characters."         
+        },
+        "reTypePassword": {
+          "required": "ReType Password is required.",
+          "minlength": "ReType Password should have at least 5 characters."         
+        }
+    }
+  },
+  "ROOM_ALLOCATION": {
+    "TITLE": "Room Allocation",
+    "TABLE_COL": {
+      "NAME": "Room Name",
+      "ROOM_TYPE": "Room Type",
+      "DESCRIPTION": "Description",
+      "ROOM_STATUS": "Room Status",
+      "RATE_CODE": "Rate Code",
+      "RATE_AMOUNT": "Publish Rate Amount",
+      "MAX_OCCUPANCY": "Max Occupancy",
+      "CONNECTING_ROOM": "Connecting Room",
+      "FLOOR_PREFERENCE": "Floor Preference",
+      "SMOKING_PREFERENCE": "Smoking Preference"
+    },
+    "LBL_ROOM_TYPE": "Room Types",
+    "LBL_FLOOR": "Floors ",
+    "BTN_OK": "Ok",
+    "BTN_CLEAR": "Clear",
+    "BTN_CANCEL": "Cancel"
+  },
+  "ADMIN": {
+    "ADD_PERMISSION": {
+      "TITLE": "Add Role",
+      "ROLE_NAME": "Role Name",
+      "ROLE_NAME.REQUIRED": "Role Name required.",
+      "SAVE_BTN": "Save",
+      "CLEAR_BTN": "Cancel",
+      "OPERATIONS": "Operations",
+      "FEATURE_GROUPS": "Feature Groups"
+    },
+    "EDIT_PERMISSION": {
+      "TITLE": "Update Role",
+      "ROLE_NAME": "Role Name",
+      "ROLE_NAME.REQUIRED": "Role Name required.",
+      "SAVE_BTN": "Save",
+      "CLEAR_BTN": "Clear",
+      "OPERATIONS": "Operations",
+      "FEATURE_GROUPS": "Feature Groups"
+    },
+    "ADD_USER": {
+      "TITLE": "Add User",
+      "VALIDATIONS": {
+        "firstName": {
+          "required": "First Name is required.",
+          "minlength": "First Name should have at least 2 characters.",
+          "maxlength": "First Name cannot exceed 50 charcters."
+        },
+        "lastName": {
+          "minlength": "Last Name should have at least 2 characters.",
+          "maxlength": "Last Name cannot exceed 50 charcters."
+        },
+        "username": {
+          "required": "Email is required.",
+          "pattern": "Please enter valid email."
+        },
+        "mobileNo": {
+          "required": "Mobile Number is required."
+        },
+        "password": {
+          "required": "Password is required."
+        },
+        "confirmPassword": {
+          "required": "Confirm Password is required.",
+          "MatchPassword": "Password do not match."
+        },
+        "gender": {
+          "required": "Gender is required."
+        },
+        "userRole": {
+          "required": "User Role is required."
+        }
+      }
+    },
+    "EDIT_USER": {
+      "TITLE": "Edit User"
+    }
+  },
+  "CASHIERING": {
+    "HEADER": {
+      "TITLE": "CASHIERING"
+    },
+    "LOGIN": {
+      "TITLE": "Cashier Login"
+    },
+    "COMMON": {
+      "NO_RECORDS_FOUND": "No Records Found.",
+      "SAVE_BTN": "Save",
+      "CANCEL_BTN": "Cancel",
+      "BTN_OK": "Ok"
+    },
+    "CASHIERING": {
+      "CASHIER_CLOSE_BTN": "Cashier Close"
+    },
+    "BILLING": {
+      "TITLE": "In House Guests",
+      "SEARCH_BTN": "Search",
+      "CLEAR_BTN": "Clear",
+      "TABLE_COL": {
+        "NAME": "Name",
+        "ROOM": "Room",
+        "CONFIRMATION_NO":"Conf #",
+        "ROOM_TYPE": "Room Type",
+        "ARRIVAL": "Arrival",
+        "DEPARTURE": "Departure",
+        "RATE_CODE": "Rate Code",
+        "RATE_AMOUNT": "Rate Amount",
+        "COMPANY_GROUP": "Company/Group",
+        "AGENT_SOURCE": "Agent/Source",
+        "PRS": "Prs",
+        "BALANCE": "Balance",
+        "STATUS": "Status",
+        "VIEW": "View"
+      },
+      "SEARCH": {
+        "ROOM_NO": "Room",
+        "NAME": "Name",
+        "COMPANY": "Company",
+        "GROUP": "Group",
+        "SOURCE": "Source",
+        "AGENT": "Agent",
+        "CONTACT": "Contact",
+        "FIRST_NAME": "First Name",
+        "CORP_NO": "Corp No.",
+        "CONF_NO": "Conf No.",
+        "ARRIVAL_FROM": "Arrival From",
+        "ARRIVAL_TO": "Arrival To",
+        "IATA_NO": "IATA No."
+      }
+    },
+    "CASHIERING_HOME": {
+      "TITLE": "Billing",
+      "TOP_PANEL": {
+        "BALANCE": "Balance",
+        "ARRIVAL": "Arrival",
+        "DEPARTURE": "Departure",
+        "RATE": "Rate",
+        "RATE_CODE": "Rate Code",
+        "STATUS": "Status",
+        "GUEST_FOLIO": "Folio"
+      },
+      "BTN_SET": {
+        "ADD_FOLIO": "Add Folio",
+        "POST_CHARGE": "Post Charges",
+        "POST_PAYMENT": "Post Payments",
+        "CHECKOUT": "Check Out",
+        "SCHEDULE_POSTING": "Schedule Posting"
+      },
+      "WINDOW": {
+        "CHARGE_TITLE": "Charges",
+        "PAYMENT_TITLE": "Payments"
+      },
+      "TABLE_COL": {
+        "DATE": "Date",
+        "CODE": "Code",
+        "DESCRIPTION": "Description",
+        "AMOUNT": "Amount"
+      },
+      "TOTAL": {
+        "TOTAL_CHARGE": "Total Charge",
+        "TOTAL_PAYMENT": "Total Payment",
+        "BALANCE": "Balance"
+      }
+    },
+    "CREATE_FOLIO": {
+      "TITLE": "Add New Window",
+      "ADD_BTN": "Add",
+      "CANCEL_BTN": "Cancel"
+    },
+    "CREATE_CUSTOM_FOLIO": {
+      "TITLE": "Create Custom Folio",
+      "TITLE_UPDATE": "Update Custom Folio",
+      "ADD_BTN": "Add",
+      "SAVE_BTN": "Save Changes",
+      "CANCEL_BTN": "Cancel",
+      "LBL_NAME": "Name",
+      "LBL_ADDRESS": "Address",
+      "VALIDATIONS": {
+        "name": {
+          "required": "Name is required."
+        },
+        "address": {
+          "required": "Address is required."
+        }
+      }
+    },
+    "POST_CHARGE": {
+      "TITLE": "Post Charges",
+      "LBL_CODE": "Code",
+      "LBL_AMOUNT": "Amount",
+      "LBL_QUANTITY": "Quantity",
+      "LBL_WINDOW": "Window",
+      "SAVE_BTN": "Save",
+      "CLEAR_BTN": "Cancel",
+      "VALIDATIONS": {
+        "code": {
+          "required": "Transaction Code is required."
+        },
+        "paymentType": {
+          "required": "Payment Type is required."
+        },
+        "amount": {
+          "required": "Amount  is required."
+        },
+        "quantity": {
+          "required": "Quantity is required.",
+          "min": "Please enter valid Quantity."
+        },
+        "window": {
+          "required": "Window is required."
+        }
+      }
+    },
+    "POST_PAYMENT": {
+      "TITLE": "Post Payment",
+      "LBL_CODE": "Code",
+      "LBL_AMOUNT": "Amount",
+      "LBL_WINDOW": "Window",
+      "SAVE_BTN": "Save",
+      "POST_BTN": "Post",
+      "CANCEL_BTN": "Cancel",
+      "CLEAR_BTN": "Cancel",
+      "VALIDATIONS": {
+        "code": {
+          "required": "Transaction Code is required."
+        },
+        "amount": {
+          "required": "Amount  is required.",
+          "min": "Please enter valid Amount."
+        },
+        "window": {
+          "required": "Window is required."
+        },
+        "cardNumber": {
+          "required": "Card Number is required."
+        },
+        "creditCardType": {
+          "required": "Credit Card Type  is required."
+        },
+        "cardHolderName": {
+          "required": "Card Holder Name is required."
+        },
+        "expirationDate": {
+          "required": "Expiration Date is required."
+        },
+        "crsNo": {
+          "required": "Crs No. is required."
+        }
+      },
+      "PAYMENT_METHODS": {
+        "VALIDATIONS": {
+          "cardNumber": {
+            "required": "CardNumber is required."
+          },
+          "cardName": {
+            "required": "Card Name is required."
+          },
+          "expirationDate": {
+            "required": "Expiration Date is required."
+          },
+          "crsNo": {
+            "required": "Crs Number is required."
+          }
+        }
+      }
+    },
+    "SPLIT_CHARGE": {
+      "TITLE": "Split Charges",
+      "LBL_SPLIT_TYPE1": "Amount",
+      "LBL_SPLIT_TYPE2": "Percentage",
+      "LBL_AMOUNT": "Amount",
+      "LBL_PERCENTAGE": "Percentage",
+      "LBL_ORIGINAL_PRICE": "Original Price",
+      "LBL_SPLITED_PRICE": "Splitted Price",
+      "SAVE_BTN": "Save",
+      "CLEAR_BTN": "Cancel",
+      "VALIDATIONS": {
+        "percentage": {
+          "required": "Percentage is required.",
+          "min": "Please enter valid percentage.",
+          "max": "Please enter valid percentage."
+        },
+        "amount": {
+          "required": "Amount  is required.",
+          "min": "Please enter valid amount.",
+          "max": "Please enter amount lower than charge price."
+        }
+      }
+    },
+    "TRANSFER_CHARGE": {
+      "TITLE": "Transfer Charges",
+      "FROM": "From",
+      "TO": "To",
+      "SAVE_BTN": "Transfer",
+      "CLEAR_BTN": "Cancel",
+      "VALIDATIONS": {
+        "window": {
+          "required": "Window is required."
+        },
+        "room": {
+          "required": "Window is required."
+        }
+      }
+    },
+    "REMOVE_CHARGE": {
+      "TITLE": "Remove Charges",
+      "LBL_CODE": "Code",
+      "LBL_PRICE": "Price",
+      "LBL_WINDOW": "Window",
+      "LBL_SUPPLEMENT": "Reason Text",
+      "SAVE_BTN": "Post",
+      "CLEAR_BTN": "Cancel",
+      "VALIDATIONS": {
+        "supplement": {
+          "required": "Reason Text is required."
+        }
+      }
+    },
+    "ADJUST_CHARGE": {
+      "TITLE": "Adjust Charges",
+      "LBL_ADJUST_TYPE1": "Amount",
+      "LBL_ADJUST_TYPE2": "Percentage",
+      "LBL_AMOUNT": "Amount",
+      "LBL_PERCENTAGE": "Percentage",
+      "LBL_ADJUST_REASON": "Reason Text",
+      "LBL_ORIGINAL_PRICE": "Original Price",
+      "LBL_ADJUST_AMOUNT": "Adjust Amount",
+      "SAVE_BTN": "Adjust",
+      "CLEAR_BTN": "Cancel",
+      "VALIDATIONS": {
+        "percentage": {
+          "required": "Percentage is required.",
+          "min": "Please enter valid Percentage.",
+          "max": "Please enter valid Percentage."
+        },
+        "amount": {
+          "required": "Amount  is required."
+        },
+        "adjustReason": {
+          "required": "Adjust Reason is required."
+        }
+      }
+    },
+    "REMOVE_PAYMENT": {
+      "TITLE": "Remove Payment",
+      "LBL_CODE": "Code",
+      "LBL_AMOUNT": "Amount",
+      "LBL_WINDOW": "Window",
+      "LBL_SUPPLEMENT": "Reason Text",
+      "SAVE_BTN": "Post",
+      "CLEAR_BTN": "Cancel",
+      "VALIDATIONS": {
+        "supplement": {
+          "required": "Reason Text is required."
+        }
+      }
+    },
+    "ADJUST_PAYMENT": {
+      "TITLE": "Adjust Payment",
+      "LBL_ADJUST_TYPE1": "Amount",
+      "LBL_ADJUST_TYPE2": "Percentage",
+      "LBL_AMOUNT": "Amount",
+      "LBL_PERCENTAGE": "Percentage",
+      "LBL_ADJUST_REASON": "Reason Text",
+      "LBL_ORIGINAL_PRICE": "Original Price",
+      "LBL_ADJUST_AMOUNT": "Adjust Amount",
+      "SAVE_BTN": "Adjust",
+      "CLEAR_BTN": "Cancel",
+      "VALIDATIONS": {
+        "percentage": {
+          "required": "Percentage is required.",
+          "min": "Please enter valid Percentage.",
+          "max": "Please enter valid Percentage."
+        },
+        "amount": {
+          "required": "Amount  is required."
+        },
+        "adjustReason": {
+          "required": "Adjust Reason is required."
+        }
+      }
+    },
+    "TRANSFER_PAYMENT": {
+      "TITLE": "Transfer Payment",
+      "FROM": "From",
+      "TO": "To",
+      "SAVE_BTN": "Transfer",
+      "CLEAR_BTN": "Cancel",
+      "VALIDATIONS": {
+        "window": {
+          "required": "Window is required."
+        },
+        "room": {
+          "required": "Window is required."
+        }
+      }
+    },
+    "SPLIT_PAYMENT": {
+      "TITLE": "Split Payment",
+      "LBL_SPLIT_TYPE1": "Amount",
+      "LBL_SPLIT_TYPE2": "Percentage",
+      "LBL_AMOUNT": "Amount",
+      "LBL_PERCENTAGE": "Percentage",
+      "LBL_ORIGINAL_PRICE": "Original Amount",
+      "LBL_SPLITED_PRICE": "Splitted Amount",
+      "SAVE_BTN": "Save",
+      "CLEAR_BTN": "Cancel",
+      "VALIDATIONS": {
+        "percentage": {
+          "required": "Percentage is required.",
+          "min": "Please enter valid percentage.",
+          "max": "Please enter valid percentage."
+        },
+        "amount": {
+          "required": "Amount  is required.",
+          "min": "Please enter valid amount.",
+          "max": "Please enter amount lower than payment amount."
+        }
+      }
+    },
+    "FAST_POSTING": {
+      "TITLE": "Fast Posting",
+      "SAVE_BTN": "Post",
+      "LBL_ROOM": "Room",
+      "LBL_CODE": "Code",
+      "LBL_AMOUNT": "Amount",
+      "LBL_QUANTITY": "Quantity",
+      "LBL_WINDOW": "Window",
+      "TOP_PANEL": {
+        "NAME": "Name",
+        "BALANCE": "Balance",
+        "ARRIVAL": "Arrival",
+        "DEPARTURE": "Departure"
+      },
+      "TABLE_COL": {
+        "ROOM": "Room",
+        "CODE": "Code",
+        "AMOUNT": "Amount",
+        "QUANTITY": "Quantity",
+        "WINDOW": "Window"
+      },
+      "VALIDATIONS": {
+        "room": {
+          "required": "Room is required."
+        },
+        "code": {
+          "required": "Code is required."
+        },
+        "amount": {
+          "required": "Amount is required."
+        },
+        "quantity": {
+          "required": "Please enter a valid quantity."
+        },
+        "window": {
+          "required": "Window is required."
+        }
+      },
+      "MESSAGES": {
+        "DELETE": {
+          "CONFIRMATION": "Are you sure you want to remove this transaction?",
+          "MESSAGE_TITLE": "Delete Confirmation"
+        }
+      }
+    },
+    "BATCH_POSTING": {
+      "TITLE": "Batch Posting",
+      "SAVE_BTN": "Post",
+      "LBL_TRNS_CODE": "Transaction Code",
+      "LBL_AMOUNT": "Amount",
+      "LBL_QUANTITY": "Quantity",
+      "LBL_ROOMS": "Rooms",
+      "VALIDATIONS": {
+        "transactionCode": {
+          "required": "Transaction Code is required."
+        },
+        "amount": {
+          "required": "Amount is required."
+        },
+        "quantity": {
+          "required": "Quantity is required.",
+          "min": "Please enter valid quantity."
+        },
+        "rooms": {
+          "required": "Please select rooms to post."
+        }
+      }
+    },
+    "INVOICE": {
+      "TITLE": "Invoice Search",
+      "TABLE_COL": {
+        "DATE": "Date",
+        "NAME": "Name",
+        "INVOICENO": "Invoice No",
+        "IS_SETTLED": "Is Settled",
+        "AMOUNT": "Amount",
+        "TOTAL_CHARGE": "Total Charge",
+        "TOTAL_PAYMENT": "Total Payment",
+        "BALANCE": "Balance",
+        "STATEMENTCODE": "Statement Code",
+        "EDIT": "Edit",
+        "DELETE": "Delete"
+      },
+      "SEARCH_PERAMETERS": {
+        "TO_DATE": "To Date",
+        "FROM_DATE": "From Date",
+        "PROFILE": "Profile",
+        "GUESTFOLIO": "Guestfolio",
+        "BTNSEARCH": "Search",
+        "OPEN_BALANCE": "Open Balance",
+        "NO_BALANCE": "No Balance",
+        "NO_STATEMENT": "Open Balance with No Statement",
+        "LBL_SETTLE" : "Settlement Status",
+        "BTNSELECT": "Select",
+        "BTNSTATEMENT": "Generate",
+        "BTNSETTLE": "Settle",
+        "BTNBACK": "Back",
+        "ALL": "All",
+        "SETTLE": "Settled",
+        "NO_SETTLE": "Not Settled"
+      }
+    },
+    "SCHEDULE_CHARGE": {
+      "TITLE": "Schedule Charges",
+      "BTN_ADD": "Add New",
+      "BTN_CANCEL": "Cancel",
+      "TABLE_COL": {
+        "TRANSACTION": "Transaction",
+        "DATE": "Date",
+        "CHARGE_POSTING_CYCLE": "Charge Posting Cycle",
+        "PRICE": "Price",
+        "WINDOW": "Window",
+        "EDIT": "Edit",
+        "DELETE": "Delete"
+      },
+      "ADD_NEW": {
+        "LBL_CODE": "Code *",
+        "LBL_WINDOW": "Window *",
+        "LBL_AMOUNT": "Amount *",
+        "LBL_QUANTITY": "Quantity *",
+        "LBL_POSTING_CYCLE": "Posting Cycle *",
+        "LBL_START_DATE": "Start Date *",
+        "LBL_END_DATE": "End Date *",
+        "BTN_SAVE": "Save",
+        "BTN_CANCEL": "Cancel",
+        "BTN_DELETE": "Delete",
+        "TITLE": "Add Schedule Charge"
+      },
+      "UPDATE": {
+        "TITLE": "Update Schedule Charge"
+      },
+      "VALIDATIONS": {
+        "code": {
+          "required": "Transaction Code is required."
+        },
+        "amount": {
+          "required": "Amount  is required.",
+          "min": "please enter positive numbers."
+        },
+        "quantity": {
+          "required": "Quantity is required.",
+          "min": "please enter positive numbers."
+        },
+        "window": {
+          "required": "Window  is required."
+        },
+        "chargePostingCycle": {
+          "required": "Charge Posting Cycle  is required."
+        },
+        "startDateTime": {
+          "required": "Start Date is required."
+        },
+        "endDateTime": {
+          "required": "End Date  is required."
+        }
+      },
+      "MESSAGES": {
+        "DELETE": {
+          "CONFIRMATION": "Are you sure you want to delete this Schedule Charge?",
+          "DELETE_SUCCESS": "Schedule Charge is deleted successfully",
+          "MESSAGE_TITLE": "Delete Confirmation"
+        }
+      }
+    }
+  },
+  "CONFIGURATION": {
+    "PROFILE": {
+      "ACCOUNT_TYPE": {
+        "TITLE": "Account Types",
+        "TABLE_COL": {
+          "CODE": "Account Type Code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Account Type Code *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Account Type"
+        },
+        "UPDATE": {
+          "TITLE": "Update Account Type"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Account Type Code is required.",
+            "minlength": "Account Type Code must be at least two characters.",
+            "maxlength": "Account Type Codecannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this account type?",
+            "DELETE_SUCCESS": "Account Type is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "DOCUMENT_TYPE": {
+        "TITLE": "Document Types",
+        "TABLE_COL": {
+          "NAME": "Document Type Name",
+          "CODE": "Document Type Code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_NAME": "Document Type Name *",
+          "LBL_CODE": "Document Type Code *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Document Type"
+        },
+        "UPDATE": {
+          "TITLE": "Update Document Type"
+        },
+        "VALIDATIONS": {
+          "name": {
+            "required": "Document Type name is required.",
+            "minlength": "Document Type name must be at least two characters.",
+            "maxlength": "Document Type name cannot exceed 10 characters."
+          },
+          "code": {
+            "required": "Document Type Code is required.",
+            "minlength": "Document Type Code must be at least two characters.",
+            "maxlength": "Document Type Codecannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this Document type?",
+            "DELETE_SUCCESS": "Document Type is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "ADDRESS_TYPE": {
+        "TITLE": "Address Types",
+        "TABLE_COL": {
+          "CODE": "Address Type Code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Address Type Code *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Address Type"
+        },
+        "UPDATE": {
+          "TITLE": "Update Address Type"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Address Type Code is required.",
+            "minlength": "Address Type Code must be at least two characters.",
+            "maxlength": "Address Type Codecannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this Address type?",
+            "DELETE_SUCCESS": "Address Type is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "COMMUNICATION_TECH": {
+        "TITLE": "Communication Tech",
+        "TABLE_COL": {
+          "CODE": "Communication Tech",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Communication Tech *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Communication Tech"
+        },
+        "UPDATE": {
+          "TITLE": "Update Communication Tech"
+        },
+        "VALIDATIONS": {
+          "tech": {
+            "required": "Communication Tech is required.",
+            "minlength": "Communication Tech must be at least two characters.",
+            "maxlength": "Communication Tech Codecannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this communication tech?",
+            "DELETE_SUCCESS": "Communication Tech is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "COMPANY_TYPE": {
+        "TITLE": "Company Types",
+        "TABLE_COL": {
+          "CODE": "Company Type Code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Company Type Code *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Company Type"
+        },
+        "UPDATE": {
+          "TITLE": "Update Company Type"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Company Type Code is required.",
+            "minlength": "Company Type Code must be at least two characters.",
+            "maxlength": "Company Type Codecannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this company type?",
+            "DELETE_SUCCESS": "Company Type is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "CREDIT_CARD_TYPE": {
+        "TITLE": "Credit Card Types",
+        "TABLE_COL": {
+          "CODE": "Credit Card Type Code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Credi Card Type Code *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Credit Card Type"
+        },
+        "UPDATE": {
+          "TITLE": "Update Credit Card Type"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Credit Card Type Code is required.",
+            "minlength": "Credit Card Type Code must be at least two characters.",
+            "maxlength": "Credit Card Type Codecannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this credit card type?",
+            "DELETE_SUCCESS": "Credit Card Type is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "LANGUAGE": {
+        "TITLE": "Language",
+        "TABLE_COL": {
+          "CODE": "Language Code",
+          "DESCRIPTION": "Name",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Language Code *",
+          "LBL_DESCRIPTION": "Name *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Language"
+        },
+        "UPDATE": {
+          "TITLE": "Update Language"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Language Code is required.",
+            "minlength": "Language Code must be at least two characters.",
+            "maxlength": "Language Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Name is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this language?",
+            "DELETE_SUCCESS": "Language is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "PHONE_CODE": {
+        "TITLE": "Phone Code",
+        "TABLE_COL": {
+          "COUNTRY_NAME": "Country Name",
+          "PHONE_CODE": "Phone Code",
+          "COUNTRY_CODE": "Country Code",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_COUNTRY_NAME": "Country Name *",
+          "LBL_PHONE_CODE": "Phone Code *",
+          "LBL_COUNTRY_CODE": "Country Code *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Phone Code"
+        },
+        "UPDATE": {
+          "TITLE": "Update Phone Code"
+        },
+        "VALIDATIONS": {
+          "name": {
+            "required": "Country Name is required.",
+            "minlength": "Country Name must be at least two characters.",
+            "maxlength": "Country Name cannot exceed 50 characters."
+          },
+          "code": {
+            "required": "Phone Code is required.",
+            "minlength": "Phone Code must be at least two characters.",
+            "maxlength": "Phone Code cannot exceed 10 characters."
+          },
+          "dialCode": {
+            "required": "Country Code is required.",
+            "minlength": "Country Code must be at least two characters.",
+            "maxlength": "Country Code cannot exceed 10 characters."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this phone code?",
+            "DELETE_SUCCESS": "Phone Code is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "PROFILE_TYPE": {
+        "TITLE": "Profile Type",
+        "TABLE_COL": {
+          "CODE": "Profile Type Code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Profile Type Code *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Profile Type"
+        },
+        "UPDATE": {
+          "TITLE": "Update Profile Type"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Profile Type Code is required.",
+            "minlength": "Profile Type Code must be at least two characters.",
+            "maxlength": "Profile Type Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this profile type?",
+            "DELETE_SUCCESS": "Profile Type is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "REGION": {
+        "TITLE": "Region",
+        "TABLE_COL": {
+          "CODE": "Region Code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Region Code *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Region"
+        },
+        "UPDATE": {
+          "TITLE": "Update Region"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Region Code is required.",
+            "minlength": "Region Code must be at least two characters.",
+            "maxlength": "Region Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this region?",
+            "DELETE_SUCCESS": "Region is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "TRAVEL_AGENT_TYPE": {
+        "TITLE": "Travel Agent Type",
+        "TABLE_COL": {
+          "CODE": "Travel Agent Type Code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Travel Agent Type Code *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Travel Agent Type"
+        },
+        "UPDATE": {
+          "TITLE": "Update Travel Agent Type"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Travel Agent Type Code is required.",
+            "minlength": "Travel Agent Type Code must be at least two characters.",
+            "maxlength": "Travel Agent Type Code cannot exceed 50 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this travel agent type?",
+            "DELETE_SUCCESS": "Travel Agent Type is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "CITY": {
+        "TITLE": "City",
+        "TABLE_COL": {
+          "NAME": "City Name",
+          "DESCRIPTION": "Description",
+          "COUNTRY": "Country",
+          "STATE": "State",
+          "COUNT": "Count",
+          "FROM_POSTAL_CODE": "From Postal Code",
+          "TO_POSTAL_CODE": "To Postal Code",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_NAME": "City Name *",
+          "LBL_COUNTRY": "Country *",
+          "LBL_STATE": "State *",
+          "LBL_COUNT": "Count *",
+          "LBL_FROM_POSTAL_CODE": "From Postal Code *",
+          "LBL_TO_POSTAL_CODE": "To Postal Code *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New City"
+        },
+        "UPDATE": {
+          "TITLE": "Update City"
+        },
+        "VALIDATIONS": {
+          "name": {
+            "required": "Name is required.",
+            "minlength": "Name must be at least two characters.",
+            "maxlength": "Name cannot exceed 50 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this city?",
+            "DELETE_SUCCESS": "City is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "NATIONALITY": {
+        "TITLE": "Nationality",
+        "TABLE_COL": {
+          "CODE": "Nationality Code",
+          "NATIONALITY": "Nationality",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Nationality Code *",
+          "LBL_NATIONALITY": "Nationality *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Nationality"
+        },
+        "UPDATE": {
+          "TITLE": "Update Nationality"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Nationality Code is required.",
+            "minlength": "Nationality Code must be at least two characters.",
+            "maxlength": "Nationality Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "nationalities": {
+            "required": "Nationality is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this nationality?",
+            "DELETE_SUCCESS": "Nationality is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "COUNTRY": {
+        "TITLE": "Country",
+        "TABLE_COL": {
+          "CODE": "Country Code",
+          "NAME": "Name",
+          "COUNT": "Count",
+          "REGION": "Region Code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Country Code *",
+          "LBL_NAME": "Country Name *",
+          "LBL_REGION": "Region *",
+          "LBL_COUNT": "Count *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Country"
+        },
+        "UPDATE": {
+          "TITLE": "Update Country"
+        },
+        "VALIDATIONS": {
+          "countryCode": {
+            "required": "Country Code is required.",
+            "minlength": "Country Code must be at least two characters.",
+            "maxlength": "Country Code cannot exceed 10 characters."
+          },
+          "name": {
+            "required": "Country Name is required."
+          },
+          "region": {
+            "required": "Country Region is required."
+          },
+          "count": {
+            "required": "Count is required."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this country?",
+            "DELETE_SUCCESS": "Country is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "COMMUNICATION_TYPE": {
+        "TITLE": "Communication Type",
+        "TABLE_COL": {
+          "TYPE": "Communication Type",
+          "DESCRIPTION": "Description",
+          "COMMUNICATION_TECH": "Communication Tech",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_TYPE": "Communication Type *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_COMMUNICATION_TECH": "Communication Tech *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Communication Type"
+        },
+        "UPDATE": {
+          "TITLE": "Update Communication Type"
+        },
+        "VALIDATIONS": {
+          "type": {
+            "required": "Communication Type is required.",
+            "minlength": "Communication Type must be at least two characters.",
+            "maxlength": "Communication Type cannot exceed 20 characters."
+          },
+          "communicationTech": {
+            "required": "Communication Tech  is required."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this communication type?",
+            "DELETE_SUCCESS": "Communication Type is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "CURRENCY_CODE": {
+        "TITLE": "Currency Code",
+        "TABLE_COL": {
+          "CODE": "Currency Code",
+          "VALUE": "Value",
+          "DESCRIPTION": "Name",
+          "BASECODE": "Base Code",
+          "LASTUPDATEDDATE": "Last Update",
+          "ISBASED": "Is Base",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Currency Code *",
+          "LBL_DESCRIPTION": "Name ",
+          "LBL_SEQUENCE": "Sequence *",
+          "LBL_BASECODE": "Base Code",
+          "LBL_ISBASE": "Is Base",
+          "BTN_SAVE": "Save",
+          "LBL_VALUE": "Value",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Currency Code"
+        },
+        "UPDATE": {
+          "TITLE": "Update Currency Code"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Currency Code is required.",
+            "minlength": "Currency Code must be at least two characters.",
+            "maxlength": "Currency Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Name is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this currency?",
+            "DELETE_SUCCESS": "Currency is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "STATE": {
+        "TITLE": "State",
+        "TABLE_COL": {
+          "CODE": "State Code",
+          "DESCRIPTION": "Name",
+          "COUNTRY": "Country",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "State Code *",
+          "LBL_DESCRIPTION": "Name *",
+          "LBL_COUNTRY": "Country *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New State"
+        },
+        "UPDATE": {
+          "TITLE": "Update State"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "State Code is required.",
+            "minlength": "State Code must be at least two characters.",
+            "maxlength": "State Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "country": {
+            "required": "Country  is required."
+          },
+          "description": {
+            "required": "Name is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this state?",
+            "DELETE_SUCCESS": "State is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "TITLE": {
+        "TITLE": "Title",
+        "TABLE_COL": {
+          "CODE": "Title Code",
+          "DESCRIPTION": "Description",
+          "GREETING": "Greeting",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Title Code *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_GREETING": "Greeting *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Title"
+        },
+        "UPDATE": {
+          "TITLE": "Update Title"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Title Code is required.",
+            "minlength": "Title Code must be at least two characters.",
+            "maxlength": "Title Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "greeting": {
+            "required": "Greeting  is required."
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this title?",
+            "DELETE_SUCCESS": "Title is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "VIP_LEVEL": {
+        "TITLE": "VIP Levels",
+        "TABLE_COL": {
+          "CODE": "VIP Code",
+          "DESCRIPTION": "Description",
+          "COLOR": "Color",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "VIP Code *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_COLOR": "Color *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New VIP Level"
+        },
+        "UPDATE": {
+          "TITLE": "Update VIP Level"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "VIP Level Code is required.",
+            "minlength": "VIP Level Code must be at least two characters.",
+            "maxlength": "VIP Level Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "color": {
+            "required": "Color  is required."
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this vip level?",
+            "DELETE_SUCCESS": "VIP Level is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "GUEST_ATTRIBUTE": {
+        "TITLE": "Guest Attributes",
+        "TABLE_COL": {
+          "RATE_CODE": "Rate Code",
+          "PROFILE": "Profile",
+          "MEMBER_NO": "Member No",
+          "MEMBER_LEVEL": "Member level",
+          "AR_NO": "Ar No",
+          "LAST_ROOM": "Last Room",
+          "LAST_RATE": "Last Rate",
+          "LAST_VISIT": "Last Visit",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_RATE_CODE": "Language Code *",
+          "LBL_PROFILE": "Profile *",
+          "LBL_MEMBER_NO": "Member No *",
+          "LBL_MEMBER_LEVEL": "Member level *",
+          "LBL_AR_NO": "Ar No *",
+          "LBL_LAST_ROOM": "Last Room *",
+          "LBL_LAST_RATE": "Last Rate *",
+          "LBL_LAST_VISIT": "Last Visit *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_ADD": "Add",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Guest Attribute"
+        },
+        "UPDATE": {
+          "TITLE": "Update Guest Attribute"
+        },
+        "VALIDATIONS": {
+          "rateCode": {
+            "required": "Rate Code is required.",
+            "minlength": "Rate Code must be at least two characters.",
+            "maxlength": "Rate Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this guest attribute?",
+            "DELETE_SUCCESS": "Guest Attribute is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "PREFERENCE_GROUP": {
+        "TITLE": "Preferences Group",
+        "TABLE_COL": {
+          "GROUP": "Preference Group",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "RESERVATION_PREFERENCE": "Reservation Preference",
+          "MAXIMUM_QUANTITY": "Maximum Quantity",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_GROUP": "Preference Group *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "LBL_RESERVATION_PREFERENCE": "Reservation Preference *",
+          "LBL_MAXIMUM_QUANTITY": "Maximum Quantity *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Preferences Group"
+        },
+        "UPDATE": {
+          "TITLE": "Update Preferences Group"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Preference Group is required.",
+            "minlength": "Preference Group must be at least two characters.",
+            "maxlength": "Preference Group cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this preferences group?",
+            "DELETE_SUCCESS": "Preferences Group is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "PREFERENCE": {
+        "TITLE": "Preferences",
+        "TABLE_COL": {
+          "GROUP": "Preference Group",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "GLOBAL": "Global",
+          "PREFERENCES_CODE": "Preferences Code",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_GROUP": "Preference Group *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "LBL_GLOBAL": "Global *",
+          "LBL_PREFERENCES_CODE": "Preferences Code *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Preferences"
+        },
+        "UPDATE": {
+          "TITLE": "Update Preferences"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Preference Group is required.",
+            "minlength": "Preference Group must be at least two characters.",
+            "maxlength": "Preference Group cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this preferences?",
+            "DELETE_SUCCESS": "Preferences is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      }
+    },
+    "PROPERTY_MANAGEMENT": {
+      "DESTINATION_TYPE": {
+        "TITLE": "Destination Type",
+        "TABLE_COL": {
+          "TYPE": "Destination Type",
+          "CODE": "Destination Type Code",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_TYPE": "Destination Type *",
+          "LBL_CODE": "Destination Type Code *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Destination Type"
+        },
+        "UPDATE": {
+          "TITLE": "Update Destination Type"
+        },
+        "VALIDATIONS": {
+          "type": {
+            "required": "Destination Type is required.",
+            "minlength": "Destination Type must be at least two characters.",
+            "maxlength": "Destination Type cannot exceed 20 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Destination Type Code is required."
+          },
+          "code": {
+            "required": "code  is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this destination type?",
+            "DELETE_SUCCESS": "Destination Type is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "PROPERTY_FLOORS": {
+        "TITLE": "Property Floors",
+        "TABLE_COL": {
+          "PROPERTY_INFORMATION": "Property Information",
+          "DESCRIPTION": "Description",
+          "CODE": "Code",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_PROPERTY_INFORMATION": "Property Information *",
+          "LBL_CODE": "Property Floors Code *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Property Floors"
+        },
+        "UPDATE": {
+          "TITLE": "Update Property Floors"
+        },
+        "VALIDATIONS": {
+          "propertyInformation": {
+            "required": "property Information is required."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "property floors is required."
+          },
+          "code": {
+            "required": "code  is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this property floors?",
+            "DELETE_SUCCESS": "property floors is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "DESTINATION": {
+        "TITLE": "Destination",
+        "TABLE_COL": {
+          "CODE": "Destination Code",
+          "NAME": "Destination Name",
+          "TYPE": "Destination Type",
+          "DESTINATION_TYPE": "Destination Type",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Destination Code *",
+          "LBL_NAME": "Destination Name *",
+          "LBL_DESTINATION_TYPE": "Destination Type *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Destination"
+        },
+        "UPDATE": {
+          "TITLE": "Update Destination"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Destination Code is required.",
+            "minlength": "Destination Code must be at least two characters.",
+            "maxlength": "Destination Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "name": {
+            "required": "Destination name is required."
+          },
+          "destinationType": {
+            "required": "Destination type  is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this destination?",
+            "DELETE_SUCCESS": "Destination is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "PROPERTY_INFORMATION": {
+        "TITLE": "Property Information",
+        "TABLE_COL": {
+          "CODE": "Property Code",
+          "NAME": "Property Name",
+          "DESCRIPTION": "Description",
+          "REGION": "Region",
+          "STREET_ADDRESS": "Street Address",
+          "CITY": "City",
+          "COUNTRY": "Country",
+          "PROPERTY_TYPE": "Property Type",
+          "STAR_RATING": "Star Rating",
+          "DISPLAY_CURRENCY": "Display Currency",
+          "BOOKING_CONDITION": "Booking Condition",
+          "MAIN_IMAGE_URL": "Main Image Url",
+          "WEB_SITE_URL": "Web Site Url",
+          "LATITUDE": "Latitude",
+          "LONGITUDE": "Longitude",
+          "STANDERD_CHECK_IN_TIME": "Standard Check In Time",
+          "STANDERD_CHECK_OUT_TIME": "Standard Check Out Time",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_PROPERTY_INFO_TAB": "Property Info",
+          "LBL_ADDRESS_INFO_TAB": "Address & Communication",
+          "LBL_OPERATION_INFO_TAB": "Operation Info",
+          "LBL_CODE": "Property Code *",
+          "LBL_NAME": "Property Name *",
+          "LBL_REGION": "Region *",
+          "LBL_DESCRIPTION": "Description ",
+          "LBL_STREET_ADDRESS": "Street Address *",
+          "LBL_CITY": "City *",
+          "LBL_COUNTRY": "Country *",
+          "LBL_ADVANCE_BILLING": "Activate Advanced Billing",
+          "LBL_DISPLAY_CURRENCY": "Default Currency *",
+          "LBL_MAIN_IMAGE_URL": "Main Image Url",
+          "LBL_WEB_SITE_URL": "Web Site Url ",
+          "LBL_LOGO_URL": "Logo Url ",
+          "LBL_VALUE": "Value *",
+          "LBL_LATITUDE": "Latitude",
+          "LBL_LONGITUDE": "Longitude",
+          "LBL_ZOOM_LEVEL": "Zoom Level",
+          "LBL_CommunicationType": "Communication Type",
+          "LBL_STANDERD_CHECK_IN_TIME": "Standard Check In Time *",
+          "LBL_STANDERD_CHECK_OUT_TIME": "Standard Check Out Time *",
+          "LBL_SEQUENCE": "Sequence",
+          "BTN_SAVE": "Save",
+          "BTN_ADD_COMMUNICATIONS": "+ Communication",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Property Information"
+        },
+        "UPDATE": {
+          "TITLE": "Update Property Information"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Property Information Code is required.",
+            "minlength": "Property Information Code must be at least two characters.",
+            "maxlength": "Property Information Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "name": {
+            "required": "Property Information name is required."
+          },
+          "destinationType": {
+            "required": "Property Information type  is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this property information?",
+            "DELETE_SUCCESS": "Property Information is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      }
+    },
+    "RATE_MANAGEMENT": {
+      "MARKET_GROUP": {
+        "TITLE": "Market Group",
+        "TABLE_COL": {
+          "CODE": "Market Group Code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Market Group Code *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Market Group"
+        },
+        "UPDATE": {
+          "TITLE": "Update Market Group"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Market Group Code is required.",
+            "minlength": "Market Group Code must be at least two characters.",
+            "maxlength": "Market Group Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this market group?",
+            "DELETE_SUCCESS": "Market Group is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "SOURCE_GROUP": {
+        "TITLE": "Source Group",
+        "TABLE_COL": {
+          "CODE": "Source Group Code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Source Group Code *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Source Group"
+        },
+        "UPDATE": {
+          "TITLE": "Update Source Group"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Source Group Code is required.",
+            "minlength": "Source Group Code must be at least two characters.",
+            "maxlength": "Source Group Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this source group?",
+            "DELETE_SUCCESS": "Source Group is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "TURNAWAY_CODE": {
+        "TITLE": "Turnaway Code",
+        "TABLE_COL": {
+          "CODE": "Turnaway Code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Turnaway Code *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Turnaway Code"
+        },
+        "UPDATE": {
+          "TITLE": "Update Turnaway Code"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Turnaway Code is required.",
+            "minlength": "Turnaway Code must be at least two characters.",
+            "maxlength": "Turnaway Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this turnaway code?",
+            "DELETE_SUCCESS": "Turnaway Code is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "RATE_PLAN_CATEGORY": {
+        "TITLE": "Rate Plan Category",
+        "TABLE_COL": {
+          "CODE": "Rate Plan Category Code",
+          "NAME": "Rate Plan Category Name",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Rate Plan Category Code *",
+          "LBL_NAME": "Rate Plan Category Name *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Rate Plan Category"
+        },
+        "UPDATE": {
+          "TITLE": "Update Rate Plan Category"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Rate Plan Category Code is required.",
+            "minlength": "Rate Plan Category Code must be at least two characters.",
+            "maxlength": "Rate Plan Category Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          },
+          "name": {
+            "required": "Rate Plan Category Name is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this rate plan category?",
+            "DELETE_SUCCESS": "Rate Plan Category is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "SOURCE_CODE": {
+        "TITLE": "Source Code",
+        "TABLE_COL": {
+          "CODE": "Source Code",
+          "SOURCE_GROUP": "Source Group",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Source Code *",
+          "LBL_SOURCE_GROUP": "Source Group *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Source Code"
+        },
+        "UPDATE": {
+          "TITLE": "Update Source Code"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Source Code is required.",
+            "minlength": "Source Code must be at least two characters.",
+            "maxlength": "Source Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "sourceGroup": {
+            "required": "Source Group is required."
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this source code?",
+            "DELETE_SUCCESS": "Source Code is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "RATE_CATEGORY": {
+        "TITLE": "Rate Category",
+        "TABLE_COL": {
+          "CODE": "Rate Category Code",
+          "DESCRIPTION": "Description",
+          "BEGIN_DATE": "Begin Date",
+          "END_DATE": "End Date",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Rate Category Code *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_BEGIN_DATE": "Begin Date *",
+          "LBL_END_DATE": "End Date *",
+          "LBL_DEFAULT": "Default *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Rate Category"
+        },
+        "UPDATE": {
+          "TITLE": "Update Rate Category"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Rate Category Code is required.",
+            "minlength": "Rate Category Code must be at least two characters.",
+            "maxlength": "Rate Category Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "beginDate": {
+            "required": "Begin date is required."
+          },
+          "endDate": {
+            "required": "End date is required."
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this rate category?",
+            "DELETE_SUCCESS": "Rate Category is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "RATE_CODE": {
+        "TITLE": "Rate Code",
+        "TABLE_COL": {
+          "CODE": "Rate Code",
+          "BEGIN_SELL_DATE": "Begin Sell Date",
+          "END_SELL_DATE": "End Sell Date",
+          "MARKET_CODE": "Market Code",
+          "SOURCE_CODE": "Source Code",
+          "COMMISSION": "Commission",
+          "TRANSACTION_CODE": "Transaction Code",
+          "MAX_NIGHTS": "Max Nights",
+          "MIN_NIGHTS": "Min Nights",
+          "MAX_HOURS": "Max Hours",
+          "MIN_HOURS": "Min Hours",
+          "RATE_ROOM_TYPES": "Room Types",
+          "RATE_CATEGORY": "Rate Category",
+          "CURRENCY_CODE": "Currency Code",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_USE_TYPE": "Use Type*",
+          "LBL_IS_BASE_RATE": "Is Base Rate",
+          "LBL_IS_CONNECTED_WITH_BASE_RATE": "Is Connected",
+          "LBL_IS_PRECENTAGE": "Is Precentage",
+          "LBL_IS_FIX_VALUE": "Is Fix Value",
+          "LBL_IS_SUPPRESS": "Is Suppress",
+          "LBL_IS_PRINTED": "Is Printed",
+          "LBL_IS_MEMBERSHIP": "Is Membership",
+          "LBL_IS_NEGOTIATED": "Is Negotiated",
+          "LBL_IS_PUBLISHED": "Is Published",
+          "LBL_IS_YieldManagenentActive": "Activate Yield Managenent",
+          "LBL_CODE": "Rate Code *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_RATE_CATEGORY": "Rate Category *",
+          "LBL_MARKET_CODE": "Market Code *",
+          "LBL_SOURCE_CODE": "Source Code *",
+          "LBL_COMMISSION": "Commission *",
+          "LBL_TRANSACTION_CODE": "Transaction Code *",
+          "LBL_CURRENCY_CODE": "Currency",
+          "LBL_BEGIN_SELL_DATE": "Begin Sell Date *",
+          "LBL_END_SELL_DATE": "End Sell Date *",
+          "LBL_START_SELL_DATE": "Begin Sell Date *",
+          "LBL_END_DATE": "End Date",
+          "LBL_START_DATE": "Start Date *",
+          "LBL_VAL_BASE_AD": "Base Adult Amount",
+          "LBL_VAL_BASE_CH": "Base Child Amount",
+          "LBL_VAL_APPLY_AD": "Increase Adult Amount",
+          "LBL_VAL_APPLY_CH": "Increase Child Amount",
+          "LBL_VAL_APPLY_PAX_CH": "Increase Child Pax Value",
+          "LBL_VAL_APPLY_PAX_AD": "Increase Adult Pax Value",
+          "LBL_RATE_SEASON": "Rate Season",
+          "LBL_RATE_ADD_ONS": "Add-ons",
+          "LBL_ADULTS_AMOUNT": "1 Adult Amount *",
+          "LBL_CHILD_AMOUNT": "1 Child Amount *",
+          "LBL_MAX_NIGHTS": "Max Nights",
+          "LBL_MIN_NIGHTS": "Min Nights",
+          "LBL_MAX_HOURS": "Max Hours",
+          "LBL_MIN_HOURS": "Min Hours",
+          "LBL_ADULT_1": "1 Adult",
+          "LBL_ADULT_2": "+2 Adult",
+          "LBL_ADULT_3": "+3 Adult",
+          "LBL_ADULT_4": "+4 Adult",
+          "LBL_ADULT_5": "+5 Adult",
+          "LBL_ADULT_EXTRA": "+Extra Adult",
+          "LBL_CHILD_1": "+1 Child",
+          "LBL_CHILD_2": "+2 Child",
+          "LBL_CHILD_3": "+3 Child",
+          "LBL_CHILD_4": "+4 Child",
+          "LBL_CHILD_5": "+5 Child",
+          "LBL_MONDAY": "Mon",
+          "LBL_TUESDAY": "Tue",
+          "LBL_WEDNESDAY": "Wed",
+          "LBL_THURSDAY": "Thu",
+          "LBL_FRIDAY": "Fri",
+          "LBL_SATURDAY": "Sat",
+          "LBL_SUNDAY": "Sun",
+          "LBL_CHILD_EXTRA": "+Extra Child",
+          "LBL_DEFAULT": "Default",
+          "LBL_SEQUENCE": "Sequence",
+          "LBL_RATEDETAILS": "Rate Deatails",
+          "LBL_RATE_ADVANCE": "Advance",
+          "CHK_HOURUSE": " Is Hour Use",
+          "CHK_DAYUSE": "Is Day Use",
+          "BTN_ADD_NEW": "Add New",
+          "BTN_ADD": "Add",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_ADD_RATE_DETAILS": "Add Rate Details",
+          "BTN_DELETE": "Delete",
+          "BTN_GENERATE_IS_CONNECTED_RATE": "Generate Connected Rate",
+          "TITLE": "Add New Rate Code",
+          "LBL_ADJUSTMENT_TYPE": "Adjustment Type",
+          "LBL_OCCUPANCY_RATE_MIN": "Occupancy Min",
+          "LBL_OCCUPANCY_RATE_MAX": "Occupancy Max",
+          "LBL_ADULT_AMOUNT_AJUSTMENT": "Adult Amount Adjustment",
+          "LBL_CHILD_AMOUNT_AJUSTMENT": "Child Amount Adjustment",
+          "LBL_ADULT_PAX_AJUSTMENT": "Adult Pax Adjustment",
+          "LBL_CHILD_PAX_AJUSTMENT": "Child Pax Adjustment",
+          "LBL_IS_ACTIVE": "Is Active"
+        },
+        "UPDATE": {
+          "TITLE": "Update Rate Code"
+        },
+        "VALIDATIONS": {
+          "rateCode": {
+            "required": "Rate Code is required.",
+            "minlength": "Rate Code must be at least two characters.",
+            "maxlength": "Rate Code cannot exceed 10 characters."
+          },
+          "beginDate": {
+            "required": "Begin date is required."
+          },
+          "endDate": {
+            "required": "End date is required."
+          },
+          "description": {
+            "required": "Description is required."
+          },
+          "rateCategory": {
+            "required": "Rate Category is required."
+          },
+          "valueApplyToChildAmount": {
+            "required": "Please provide percentage value."
+          },
+          "valueApplyToAdultAmount": {
+            "required": "Please provide percentage value."
+          },
+          "valueApplyToChildPax": {
+            "required": "Please provide percentage value."
+          },
+          "valueApplyToAdultPax": {
+            "required": "Please provide percentage value."
+          },
+          "transactionCode": {
+            "required": "Please select transaction Code."
+          },
+          "adjustmentType": {
+            "required": "Adjustment Type is required."
+          },
+          "occupancyRate": {
+            "required": "Occupancy Rate is required."
+          },
+          "adultAmountAdjustment": {
+            "required": "Adult Amount Adjustment is required."
+          },
+          "childAmountAdjustment": {
+            "required": "Child Amount Adjustment is required."
+          },
+          "adultPaxAdjustment": {
+            "required": "Adult Pax Adjustment Amount is required."
+          },
+          "childPaxAdjustment": {
+            "required": "Child Pax Adjustment Amount is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this rate code?",
+            "DELETE_SUCCESS": "Rate Code is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "MARKET_CODE": {
+        "TITLE": "Market Code",
+        "TABLE_COL": {
+          "CODE": "Market Code",
+          "SOURCE_GROUP": "Market Group",
+          "COLOR": "Color",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Market Code *",
+          "LBL_MARKET_GROUP": "Market Group *",
+          "LBL_COLOR": "Color *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Market Code"
+        },
+        "UPDATE": {
+          "TITLE": "Update Market Code"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Market Code is required.",
+            "minlength": "Market Code must be at least two characters.",
+            "maxlength": "Market Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "marketGroup": {
+            "required": "Market Group is required."
+          },
+          "color": {
+            "required": "Color is required."
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this market code?",
+            "DELETE_SUCCESS": "Market Code is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "RATE_PLAN_ADDITIONAL_DETAIL_TYPE": {
+        "TITLE": "Rate Plan Additional Detail Type",
+        "TABLE_COL": {
+          "CODE": "Code",
+          "NAME": "Name",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Code *",
+          "LBL_NAME": "Name *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Rate Plan Additional Detail Type"
+        },
+        "UPDATE": {
+          "TITLE": "Update Rate Plan Additional Detail Type"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Code is required.",
+            "minlength": "Code must be at least two characters.",
+            "maxlength": "Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this rate plan additional detail type?",
+            "DELETE_SUCCESS": "Rate Plan Additional Detail Type is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "RATE_PLAN_ADDITIONAL_DETAIL": {
+        "TITLE": "Rate Plan Additional Detail",
+        "TABLE_COL": {
+          "NAME": "Name",
+          "TYPE": "Type",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_NAME": "Name *",
+          "LBL_TYPE": "Type *",
+          "LBL_SEQUENCE": "Sequence *",
+          "LBL_DESCRIPTION": "Description *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Rate Plan Additional Detail"
+        },
+        "UPDATE": {
+          "TITLE": "Update Rate Plan Additional Detail"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Name is required.",
+            "minlength": "Name must be at least two characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this rate plan additional detail?",
+            "DELETE_SUCCESS": "Rate Plan Additional Detail is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "RATE_PLAN": {
+        "TITLE": "Rate Plan",
+        "TABLE_COL": {
+          "CODE": "Rate Plan Code",
+          "NAME": "Rate Plan Name",
+          "RATE_PLAN_CATEGORY": "Rate Plan Category",
+          "RATE_PLAN_ADDITIONAL_DETAIL": "Rate Plan Additional Detail",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Rate Plan Code *",
+          "LBL_NAME": "Rate Plan Name *",
+          "LBL_RATE_PLAN_CATEGORY": "Rate Plan Category *",
+          "LBL_RATE_PLAN_ADDITIONAL_DETAIL": "Rate Plan Additional Detail *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Rate Plan"
+        },
+        "UPDATE": {
+          "TITLE": "Update Rate Plan"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Rate Plan is required.",
+            "minlength": "Rate Plan must be at least two characters.",
+            "maxlength": "Rate Plan cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "marketGroup": {
+            "required": "Market Group is required."
+          },
+          "color": {
+            "required": "Color is required."
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this rate plan?",
+            "DELETE_SUCCESS": "Rate Plan is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "RATE_SEASON": {
+        "TITLE": "Rate Season",
+        "TABLE_COL": {
+          "CODE": "Rate Season Code",
+          "RATE_CODE": "Rate Code",
+          "BEGIN_DATE": "Begin Date",
+          "END_DATE": "End Date",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Rate Season Code *",
+          "LBL_RATE_CODE": "Rate Code *",
+          "LBL_BEGIN_DATE": "Begin Date *",
+          "LBL_END_DATE": "End Date *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Rate Plan"
+        },
+        "UPDATE": {
+          "TITLE": "Update Rate Season"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Rate Season Code is required.",
+            "minlength": "Rate Season Code must be at least two characters.",
+            "maxlength": "Rate Season Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "marketGroup": {
+            "required": "Market Group is required."
+          },
+          "color": {
+            "required": "Color is required."
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this rate season?",
+            "DELETE_SUCCESS": "Rate Season is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      }
+    },
+    "RESERVATION_MANAGEMENT": {
+      "ALERT": {
+        "TITLE": "Alert",
+        "TABLE_COL": {
+          "CODE": "Alert Code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_CODE": "Alert Code *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Alert"
+        },
+        "UPDATE": {
+          "TITLE": "Update Alert"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Alert Code is required.",
+            "minlength": "Alert Code must be at least two characters.",
+            "maxlength": "Alert Code cannot exceed 20 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this alert?",
+            "DELETE_SUCCESS": "Alert is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "DISCOUNT_REASON": {
+        "TITLE": "Discount Reason",
+        "TABLE_COL": {
+          "CODE": "Discount Reason Code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_CODE": "Discount Reason Code *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Discount Reason"
+        },
+        "UPDATE": {
+          "TITLE": "Update Discount Reason"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Discount Reason Code is required.",
+            "minlength": "Discount Reason Code must be at least two characters.",
+            "maxlength": "Discount Reason Code cannot exceed 20 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this discount reason?",
+            "DELETE_SUCCESS": "Discount Reason is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "MOVE_REASON": {
+        "TITLE": "Move Reason",
+        "TABLE_COL": {
+          "CODE": "Move Reason Code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_CODE": "Move Reason Code *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Move Reason"
+        },
+        "UPDATE": {
+          "TITLE": "Update Move Reason"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Move Reason Code is required.",
+            "minlength": "Move Reason Code must be at least two characters.",
+            "maxlength": "Move Reason Code cannot exceed 20 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this move reason?",
+            "DELETE_SUCCESS": "Move Reason is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "ROOM_CONDITION": {
+        "TITLE": "Room Condition",
+        "TABLE_COL": {
+          "CODE": "Room Condition Code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_CODE": "Room Condition Code *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Room Condition"
+        },
+        "UPDATE": {
+          "TITLE": "Update Room Condition"
+        },
+        "VALIDATIONS": {
+          "conditionCode": {
+            "required": "Room Condition Code is required.",
+            "minlength": "Room Condition Code must be at least two characters.",
+            "maxlength": "Room Condition Code cannot exceed 20 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this room condition?",
+            "DELETE_SUCCESS": "Room Condition is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "RESERVATION_TYPE": {
+        "TITLE": "Reservation types",
+        "TABLE_COL": {
+          "CODE": "Reservation type Code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_CODE": "Reservation type Code *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Reservation type"
+        },
+        "UPDATE": {
+          "TITLE": "Update Reservation type"
+        },
+        "VALIDATIONS": {
+          "reservationTypeCode": {
+            "required": "reservation type Code is required.",
+            "minlength": "reservation type Code must be at least two characters.",
+            "maxlength": "reservation type Code cannot exceed 20 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this reservation type?",
+            "DELETE_SUCCESS": "reservation type is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "RESERVATION_STATUS": {
+        "TITLE": "Reservation Status",
+        "TABLE_COL": {
+          "CODE": "Reservation Status Code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit"
+        },
+        "UPDATE": {
+          "TITLE": "Update Reservation Status"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Code cannot be Edited."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this room condition?",
+            "DELETE_SUCCESS": "Room Condition is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        },
+        "EDIT": {
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_CODE": " Code *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "TITLE": "Edit Room Reservation"
+        }
+      },
+      "ADD_ON": {
+        "TITLE": "Add-ons",
+        "TABLE_COL": {
+          "NAME": "Name",
+          "CODE": "Add-on code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "UPDATE": {
+          "TITLE": "Update Add-ons"
+        },
+        "VALIDATIONS": {
+          "name": {
+            "required": "Name is required."
+          },
+          "code": {
+            "required": "Code cannot be Edited."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this room condition?",
+            "DELETE_SUCCESS": "Room Condition is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        },
+        "EDIT": {
+          "LBL_NAME": "Name *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_CODE": " Add-on code *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "TITLE": "Add New Add-on"
+        }
+      },
+      "ROOM_MAINTENANCE": {
+        "TITLE": "Room Maintenance",
+        "TABLE_COL": {
+          "CODE": "Room Maintenance Code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_CODE": "Room Maintenance Code *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Room Maintenance"
+        },
+        "UPDATE": {
+          "TITLE": "Update Room Maintenance"
+        },
+        "VALIDATIONS": {
+          "maintenanceCode": {
+            "required": "Room Maintenance Code is required.",
+            "minlength": "Room Maintenance Code must be at least two characters.",
+            "maxlength": "Room Maintenance Code cannot exceed 20 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this room maintenance?",
+            "DELETE_SUCCESS": "Room Maintenance is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      }
+    },
+    "ROOM_MANAGEMENT": {
+      "ROOM_CLASS": {
+        "TITLE": "Room Class",
+        "TABLE_COL": {
+          "CODE": "Room Class Code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Room Class Code *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Room Class"
+        },
+        "UPDATE": {
+          "TITLE": "Update Room Class"
+        },
+        "VALIDATIONS": {
+          "roomClassCode": {
+            "required": "Room Class Code is required.",
+            "minlength": "Room Class Code must be at least two characters.",
+            "maxlength": "Room Class Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this room class?",
+            "DELETE_SUCCESS": "Room Class is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "FRONT_OFFICE_STATUS": {
+        "TITLE": "Front Office Status",
+        "TABLE_COL": {
+          "CODE": "Front Office Status Code",
+          "COLOR": "Color",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Front Office Status Code *",
+          "LBL_COLOR": "Color *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Front Office Status"
+        },
+        "UPDATE": {
+          "TITLE": "Update Front Office Status"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Front Office Status is required.",
+            "minlength": "Front Office Status must be at least two characters.",
+            "maxlength": "Front Office Status cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "color": {
+            "required": "Color is required."
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this front office status?",
+            "DELETE_SUCCESS": "Front Office Status is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "ROOM_STATUS": {
+        "TITLE": "Room Status",
+        "TABLE_COL": {
+          "CODE": "Room Status Code",
+          "COLOR": "Color",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Room Status Code *",
+          "LBL_COLOR": "Color *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Room Status"
+        },
+        "UPDATE": {
+          "TITLE": "Update Room Status"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Room Status is required.",
+            "minlength": "Room Status must be at least two characters.",
+            "maxlength": "Room Status cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "color": {
+            "required": "Color is required."
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this front room status?",
+            "DELETE_SUCCESS": "Room Status is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "HOUSE_KEEPING_STATUS": {
+        "TITLE": "House Keeping Status",
+        "TABLE_COL": {
+          "CODE": "House Keeping Status Code",
+          "COLOR": "Color",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "House Keeping Status Code *",
+          "LBL_COLOR": "Color *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New House Keeping Status"
+        },
+        "UPDATE": {
+          "TITLE": "Update House Keeping Status"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "House Keeping Status is required.",
+            "minlength": "House Keeping Status must be at least two characters.",
+            "maxlength": "House Keeping Status cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "color": {
+            "required": "Color is required."
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this front house keeping status?",
+            "DELETE_SUCCESS": "House Keeping Status is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "ROOM_AMENITY": {
+        "TITLE": "Room Amenity",
+        "TABLE_COL": {
+          "NAME": "Name",
+          "FACILITY_CODE": "Facility Code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_NAME": "Room Amenity Name *",
+          "LBL_CODE": "Room Amenity Code *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Room Amenity"
+        },
+        "UPDATE": {
+          "TITLE": "Update Room Amenity"
+        },
+        "VALIDATIONS": {
+          "facilityCode": {
+            "required": "Facility Code is required.",
+            "minlength": "Facility Code must be at least two characters.",
+            "maxlength": "Facility Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          },
+          "name": {
+            "required": "Name is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this room amenity?",
+            "DELETE_SUCCESS": "Room Amenity is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "ROOM_TYPE": {
+        "TITLE": "Room Type",
+        "TABLE_COL": {
+          "NUMBER_OF_ROOMS": "Number Of Rooms",
+          "MAX_OCCUPANCY": "Max Occupancy",
+          "MAX_ADULTS": "Max Adults",
+          "MAX_CHILDREN": "Max Children",
+          "DEFAULT_OCCUPANCY": "Default Occupancy",
+          "MAX_BEDDING_PER_ROOM": "Max Bedding Per Room",
+          "IS_AUTO_ROOM_ASSIGN": "Is Auto Room Assign",
+          "DESCRIPTION": "Description",
+          "LONG_DESCRIPTION": "Long Description",
+          "ROOM_AMENITY": "Room Amenity",
+          "ROOM_TYPE": "Room Type",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_ROOM_TYPE": "Room Type *",
+          "LBL_ROOM_AMENITY": "Room Amenity *",
+          "LBL_NUMBER_OF_ROOMS": "Number Of Rooms *",
+          "LBL_MAX_OCCUPANCY": "Max Occupancy *",
+          "LBL_MAX_ADULTS": "Max Adults *",
+          "LBL_MAX_CHILDREN": "Max Children *",
+          "LBL_DEFAULT_OCCUPANCY": "Default Occupancy *",
+          "LBL_MAX_BEDDING_PER_ROOM": "Max Bedding Per Room *",
+          "LBL_IS_AUTO_ROOM_ASSIGN": "Is Auto Room Assign *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_LONG_DESCRIPTION": "Long Description",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Room Type"
+        },
+        "UPDATE": {
+          "TITLE": "Update Room Type"
+        },
+        "VALIDATIONS": {
+          "roomClassCode": {
+            "required": "Room Type Code is required.",
+            "minlength": "Room Type Code must be at least two characters.",
+            "maxlength": "Room Type Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this room type?",
+            "DELETE_SUCCESS": "Room Type is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "ROOM": {
+        "TITLE": "Room",
+        "TABLE_COL": {
+          "ROOM_NAME": "Room Name",
+          "ROOM_TYPE": "Room Type",
+          "DESCRIPTION": "Description",
+          "ROOM_STATUS": "Room Status",
+          "RATE_CODE": "Rate Code",
+          "PUBLISH_RATE_AMOUNT": "Publish Rate Amount",
+          "MAX_OCCUPANCY": "Max Occupancy",
+          "FRONT_OFFICE_STATUS": "Front Office Status",
+          "HOUSE_KEEPING_STATUSE": "House Kepping Status",
+          "COONECTING_ROOM": "Connecting Room",
+          "FLOOR_PREFERENCE": "Floor Preference",
+          "SMOKING_PREFERENCE": "Smoking Preference",
+          "PHONE_NUMBER": "Phone Number",
+          "MEASUREMENT": "Measurement",
+          "IS_TURNDOWN": "Is Turndown",
+          "IMAGE_LIST": "Image List",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_ROOM_NAME": "Room Name *",
+          "LBL_ROOM_TYPE": "Room Type *",
+          "LBL_DESCRIPTION": "Description",
+          "LBL_ROOM_STATUS": "Room Status",
+          "LBL_RATE_CODE": "Rate Code",
+          "LBL_PUBLISH_RATE_AMOUNT": "Publish Rate Amount *",
+          "LBL_MAX_OCCUPANCY": "Max Occupancy *",
+          "LBL_FRONT_OFFICE_STATUS": "Front Office Status",
+          "LBL_HOUSE_KEEPING_STATUSE": "House Kepping Status",
+          "LBL_COONECTING_ROOM": "Connecting Room",
+          "LBL_FLOOR_PREFERENCE": "Floor Preference",
+          "LBL_SMOKING_PREFERENCE": "Smoking Preference",
+          "LBL_PHONE_NUMBER": "Phone Number",
+          "LBL_MEASUREMENT": "Measurement",
+          "LBL_IS_TURNDOWN": "Is Turndown",
+          "LBL_IMAGE_LIST": "Image List",
+          "LBL_SEQUENCE": "Sequence",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Room"
+        },
+        "UPDATE": {
+          "TITLE": "Update Room"
+        },
+        "VALIDATIONS": {
+          "roomName": {
+            "required": "Room Name is required."
+          },
+          "roomType": {
+            "required": "Room Type is required."
+          },
+          "floorPreference": {
+            "required": "Floor preference is required."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "publishRateAmount": {
+            "required": "Publish Rate Amount is required."
+          },
+          "maxOccupancy": {
+            "required": "Max Occupancy is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this room?",
+            "DELETE_SUCCESS": "Room is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      }
+    },
+    "CASHIER_MANAGEMENT": {
+      "TAX_TYPES": {
+        "TITLE": "Tax Types",
+        "TABLE_COL": {
+          "CODE": "Tax Type Code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Tax Type Code *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Tax Type"
+        },
+        "UPDATE": {
+          "TITLE": "Update Tax Type"
+        },
+        "VALIDATIONS": {
+          "taxTypeCode": {
+            "required": "Tax Type Code is required.",
+            "minlength": "Tax Type Code must be at least two characters.",
+            "maxlength": "Tax Type Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this tax type?",
+            "DELETE_SUCCESS": "Tax Type is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "CHARGE_POSTING": {
+        "TITLE": "Charge Posting Cycles",
+        "TABLE_COL": {
+          "CODE": "Charge Posting Code",
+          "NAME": "Charge Posting Name",
+          "IS_HOURLY_BASE": "isHourlyBase",
+          "DESCRIPTION": "Description",
+          "DURATION": "Duration",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Charge Posting Code*",
+          "LBL_NAME": "Charge Posting Name*",
+          "LBL_IS_HOURLY_BASE": "isHourlyBase",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_DURATION": "Duration",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Charge Posting Cycle"
+        },
+        "UPDATE": {
+          "TITLE": "Update Charge Posting Cycle"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Charge posting cycle code is required.",
+            "minlength": "Charge posting cycle Code must be at least two characters.",
+            "maxlength": "Charge posting cycle Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "duration": {
+            "required": "Charge posting cycle duration is required."
+          },
+          "name": {
+            "required": "Charge posting cycle name is required."
+          },
+          "description": {
+            "required": "Description  is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this tax code?",
+            "DELETE_SUCCESS": "Tax Code is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "TAX_CODE": {
+        "TITLE": "Tax Code",
+        "TABLE_COL": {
+          "CODE": "Tax Code",
+          "TYPE": "Tax Type",
+          "IS_PRESENTSGE": "Precentage",
+          "IS_MAIN": "Main Tax",
+          "IS_FIX_RATE": "Fix Rate",
+          "DESCRIPTION": "Description",
+          "VALUE": "Value",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Tax Code *",
+          "LBL_TYPE": "Tax Type *",
+          "LBL_IS_PRESENTSGE": "Precentage",
+          "LBL_IS_FIX_RATE": "Fix Rate",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_VALUE": "Value",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Tax Code"
+        },
+        "UPDATE": {
+          "TITLE": "Update Tax Code"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Tax Code is required.",
+            "minlength": "Tax Code must be at least two characters.",
+            "maxlength": "Tax Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "taxType": {
+            "required": "Tax type  is required."
+          },
+          "description": {
+            "required": "Description  is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this tax code?",
+            "DELETE_SUCCESS": "Tax Code is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "TRANSACTION_GROUP_TYPE": {
+        "TITLE": "Transaction Group Type",
+        "TABLE_COL": {
+          "CODE": "Group Type Code",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Group Type Code *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Transaction Group Type"
+        },
+        "UPDATE": {
+          "TITLE": "Update Transaction Group Type"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Group Type Code is required.",
+            "minlength": "Group Type Code must be at least two characters.",
+            "maxlength": "Group Type Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this transaction group type?",
+            "DELETE_SUCCESS": "Transaction Group Type is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "TRANSACTION_GROUP": {
+        "TITLE": "Transaction Group",
+        "TABLE_COL": {
+          "CODE": "Group Code",
+          "TYPE": "Transaction Group Type",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Group Code *",
+          "LBL_TYPE": "Transaction Group Type *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Transaction Group"
+        },
+        "UPDATE": {
+          "TITLE": "Update Transaction Group"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Group Code is required.",
+            "minlength": "Group Code must be at least two characters.",
+            "maxlength": "Group Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this transaction group?",
+            "DELETE_SUCCESS": "Transaction Group is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "TRANSACTION_SUB_GROUP": {
+        "TITLE": "Transaction Sub Group",
+        "TABLE_COL": {
+          "CODE": "Sub Group Code",
+          "TYPE": "Transaction Group Type",
+          "GROUP": "Transaction Group",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Sub Group Code *",
+          "LBL_TYPE": "Transaction Group Type *",
+          "LBL_GROUP": "Transaction Group *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Transaction Sub Group"
+        },
+        "UPDATE": {
+          "TITLE": "Update Transaction Sub Group"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Sub Group Code is required.",
+            "minlength": "Sub Group Code must be at least two characters.",
+            "maxlength": "Sub Group Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this transaction sub group?",
+            "DELETE_SUCCESS": "Transaction Sub Group is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "TRANSACTION_CODE": {
+        "TITLE": "Transaction Code",
+        "TABLE_COL": {
+          "CODE": "Transaction Code",
+          "TYPE": "Transaction Sub Group Type",
+          "MAXIMUM_AMOUNT": "Maximum Amount",
+          "MINIMUM_AMOUNT": "Minimum Amount",
+          "CREDIT_CARD": "Credit Card Required",
+          "AR_ACCOUNT_REQUIRED": "AR is Required",
+          "IS_ROOM_CHARGE": "Is Room Charge",
+          "DEFAULT_AMOUNT": "Default Amount",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "TRANSACTION_GROUP": "Transaction Group",
+          "TRANSACTION_GROUP_TYPE": "Transaction Group Type",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Transaction Code *",
+          "LBL_TYPE": "Transaction Sub Group Type *",
+          "LBL_MAXIMUM_AMOUNT": "Maximum Amount",
+          "LBL_CREDIT_CARD": "Credit Card",
+          "LBL_MINIMUM_AMOUNT": "Minimum Amount",
+          "LBL_DEFAULT_AMOUNT": "Default Amount",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Transaction Code"
+        },
+        "UPDATE": {
+          "TITLE": "Update Transaction Code"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Transaction Code is required.",
+            "minlength": "Transaction Code must be at least two characters.",
+            "maxlength": "Transaction Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "description": {
+            "required": "Description is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this transaction code?",
+            "DELETE_SUCCESS": "Transaction Code is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      }
+    },
+    "AR_MANAGEMENT": {
+      "REMINDER_CYCLES": {
+        "TITLE": "Reminder Cycles",
+        "TABLE_COL": {
+          "CODE": "Code",
+          "DESCRIPTION": "Description",
+          "NOOFDAYS": "No of Days",
+          "LETTER_NAME": "Letter Name",
+          "SEQUENCE": "Sequence",
+          "REMINDERS": "Reminders",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Code *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_NOOFDAYS": "No of Days",
+          "LBL_LETTER_NAME": "Letter Name *",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Reminder Cycle"
+        },
+        "UPDATE": {
+          "TITLE": "Update Reminder Cycle"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Reminder Cycle Code is required.",
+            "minlength": "Reminder Cycle Code must be at least two characters.",
+            "maxlength": "Reminder Cycle Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "letterName": {
+            "required": "Letter Name is required."
+          },
+          "noOfDays": {
+            "required": "No Of Days is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this reminder cycle?",
+            "DELETE_SUCCESS": "reminder cycle is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "AR_ACCOUNT_TYPE": {
+        "TITLE": "AR Account Type",
+        "TABLE_COL": {
+          "CODE": "Account Type Code",
+          "CREDIT_LIMIT": "Credit Limit",
+          "REMINDER_CYCLE": "Reminder Cycle",
+          "FINANCE_DAY_OF_MONTH": "Finace Day Of Month",
+          "DAYS_OLDER_THAN": "Days Older Than",
+          "IS_PRESENTSGE": "Precentage",
+          "IS_FIX_RATE": "Fix Rate",
+          "DESCRIPTION": "Description",
+          "VALUE": "Value",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "Account Type Code *",
+          "LBL_CREDIT_LIMIT": "Credit Limit *",
+          "LBL_REMINDER_CYCLE": "Reminder Cycle *",
+          "LBL_FINANCE_DAY_OF_MONTH": "Finace Day Of Month *",
+          "LBL_DAYS_OLDER_THAN": "Days Older Than *",
+          "LBL_IS_PRESENTSGE": "Is Precentage",
+          "LBL_IS_FIX_RATE": "Fix Rate",
+          "LBL_DESCRIPTION": "Description",
+          "LBL_VALUE": "Value *",
+          "LBL_SEQUENCE": "Sequence",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New AR Account Type"
+        },
+        "UPDATE": {
+          "TITLE": "Update AR Account Type"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "Account Type is required.",
+            "minlength": "Account Type must be at least two characters.",
+            "maxlength": "Account Type cannot exceed 10 characters."
+          },
+          "creditLimit": {
+            "required": "Credit Limit is required."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "reminderCycle": {
+            "required": "Reminder Cycle is required."
+          },
+          "financeDayOfMonth": {
+            "required": "Finance Day Of Month is required."
+          },
+          "daysOlderThan": {
+            "required": "Days Older Than is required."
+          },
+          "value": {
+            "required": "value is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this ar account type?",
+            "DELETE_SUCCESS": "AR Account Type is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      }
+    },
+    "SYSTEM": {
+      "EXTERNAL_SYSTEM": {
+        "TITLE": "External System",
+        "TABLE_COL": {
+          "CODE": "External System Code",
+          "NAME": "External System Name",
+          "IS_ACTIVE": "Is Active",
+          "DESCRIPTION": "Description",
+          "SEQUENCE": "Sequence",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CODE": "External System Code *",
+          "LBL_NAME": "External System Name *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_IS_ACTIVE": "Is Active",
+          "LBL_SEQUENCE": "Sequence *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New External System"
+        },
+        "UPDATE": {
+          "TITLE": "Update External System"
+        },
+        "VALIDATIONS": {
+          "code": {
+            "required": "External System Code is required.",
+            "minlength": "External System Code must be at least two characters.",
+            "maxlength": "External System Code cannot exceed 10 characters."
+          },
+          "sequence": {
+            "required": "Sequence  is required.",
+            "min": "please enter positive numbers.",
+            "max": "Sequence  does not match"
+          },
+          "name": {
+            "required": "External System name is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this external system?",
+            "DELETE_SUCCESS": "External System is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      }
+    },
+    "MEMBERSHIP_MANAGEMENT": {
+      "MANAGEMENT_LEVEL": {
+        "TITLE": "Membership Management Levels",
+        "BTN_ADD_NEW": "Add New",
+        "TABLE_COL": {
+          "COLOR": "Color",
+          "RANK": "Rank",
+          "DESCRIPTION": "Description",
+          "LEVEL": "Level",
+          "LABEL": "Label",
+          "MEMBERFEE": "Member Fee",
+          "DURATION": "Duration(Months)",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_COLOR": "Color",
+          "LBL_RANK": "Membership Level Rank *",
+          "LBL_DESCRIPTION": "Description *",
+          "LBL_LEVEL": "Level *",
+          "LBL_LABEL": "Label *",
+          "LBL_DURATION": "Duration (Months) *",
+          "LBL_MEMBER_FEE": "Member Fee *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Membership Management Levels"
+        },
+        "UPDATE": {
+          "TITLE": "Update Membership Management Levels"
+        },
+        "VALIDATIONS": {
+          "color": {
+            "required": "color is required."
+          },
+          "rank": {
+            "required": "Rank is required.",
+            "minlength": "Rank must be at least two characters.",
+            "maxlength": "Rank Code cannot exceed 10 characters."
+          },
+          "label": {
+            "required": "label  is required."
+          },
+          "level": {
+            "required": "level  is required."
+          },
+          "description": {
+            "required": "Description is required."
+          },
+          "memberFee": {
+            "required": "Member fee is required."
+          },
+          "duration": {
+            "required": "Duration is required."
+          }
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this Membership Management Level?",
+            "DELETE_SUCCESS": "Membership Management Level is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      }
+    }
+  },
+  "CORE": {
+    "COMMON": {
+      "NO_RECORDS_FOUND": "No Records Found.",
+      "BTN_SAVE": "Save",
+      "BTN_CANCEL": "Cancel",
+      "BTN_OK": "Ok",
+      "BTN_CHECK_OUT": "Check Out"
+    },
+    "CHECK_OUT": {
+      "TITLE": "Select Check Out Option",
+      "OPTION01": "Check Out with Print Folio",
+      "OPTION02": "Check Out with Open Folio",
+      "OPTION03": "Check Out"
+    },
+    "INHOUSE_GUESTS": {
+      "TITLE": "In House Guests",
+      "TABLE_COL": {
+        "NAME": "Name",
+        "ROOM": "Room",
+        "ROOM_TYPE": "Room Type",
+        "ARRIVAL": "Arrival",
+        "DEPARTURE": "Departure",
+        "VIEW": "View"
+      },
+      "ADD_NEW": {
+        "LBL_CODE": "Account Type Code",
+        "LBL_DESCRIPTION": "Description",
+        "LBL_SEQUENCE": "Sequence",
+        "BTN_SAVE": "Save",
+        "BTN_CANCEL": "Cancel",
+        "BTN_DELETE": "Delete",
+        "TITLE": "Add New Account Type"
+      },
+      "UPDATE": {
+        "TITLE": "Update Account Type"
+      },
+      "VALIDATIONS": {
+        "code": {
+          "required": "Account Type Code is required.",
+          "minlength": "Account Type Code must be at least two characters.",
+          "maxlength": "Account Type Codecannot exceed 10 characters."
+        },
+        "sequence": {
+          "required": "Sequence  is required."
+        },
+        "description": {
+          "required": "Description is required."
+        }
+      },
+      "MESSAGES": {
+        "DELETE": {
+          "CONFIRMATION": "Are you sure you want to delete this account type?",
+          "DELETE_SUCCESS": "Account Type is deleted successfully",
+          "MESSAGE_TITLE": "Delete Confirmation"
+        }
+      }
+    },
+    "ADDRESS": {},
+    "CASHIERING": {
+      "OPEN_BALANCE": {
+        "BTN_SAVE": "Next",
+        "BTN_CANCEL": "Cancel",
+        "CASHIER_EDIT_OPENING_BTN": "Edit Open Balance",
+        "TXT_AMOUNT": "Amount",
+        "VALIDATIONS": {
+          "amount": {
+            "required": "Please provide an Opening balance to continue"
+          }
+        }
+      },
+      "NOT_LOGGED_IN": {
+        "BTN_GOTO_CASHIERING": "Next",
+        "BTN_CANCEL": "Cancel"
+      }
+    },
+    "ACCOMPANYING_GUEST": {
+      "TITLE": "Accompanying Guest"
+    },
+    "EXTEND_RESERVATION": {
+      "TITLE": "Extend Reservation",
+      "LBL_CURRENT_DEPATURE_DATE": "Curr. Depature Date",
+      "LBL_CURRENT_DEPATURE_TIME": "Curr. Depature Time",
+      "LBL_NEXT_DEPATURE_DATE": "Next Depature Date",
+      "LBL_NEXT_DEPATURE_TIME":"Next Depature Time",
+      "LBL_ADDTIONAL_NIGHTS": "Additional Nights",
+      "VALIDATIONS": {
+        "nextDeparture": {
+          "required": "Next departure date is required."
+        },
+        "nextDepartureTime": {
+          "required": "Next departure time is required."
+        },
+        "additionalNights": {
+          "required": "Aditional nights field is required."
+        }
+      }
+
+    },
+    "SWAP_ROOM": {
+      "TITLE": "Swap Room"
+    },
+    "UPGRADE_ROOM": {
+      "TITLE": "Upgrade Room"
+    },
+    "RE_INSTATE": {
+      "TITLE": "Re-Instate Reservation"
+    }
+  },
+  "DASHBOARD": {
+    "FRONTDESK_DASHBOARD": {
+      "TITLE": "Dashboard"
+    }
+  },
+  "FRONTDESK": {
+    "COMMON": {
+      "NO_RECORDS_FOUND": "No Records Found.",
+      "SAVE_BTN": "Save",
+      "CLEAR_BTN": "Cancel",
+      "BTN_SEARCH": "Search",
+      "BTN_CLEAR": "Clear",
+      "BTN_EDIT": "Edit",
+      "BTN_DELETE": "Delete",
+      "BTN_CANCEL": "Cancel",
+      "BTN_SAVE": "Save",
+      "BTN_RESOLVE": "Resolve",
+      "BTN_UNRESOLVE": "UnResolve"
+    },
+    "ARRIVAL": {
+      "TITLE": "In House Guests",
+      "SEARCH_BTN": "Search",
+      "CLEAR_BTN": "Clear",
+      "TABLE_COL": {
+        "NAME": "Name",
+        "ROOM": "Room",
+        "ROOM_TYPE": "Room Type",
+        "ARRIVAL": "Arrival",
+        "NIGHTS": "Nights",
+        "DEPARTURE": "Departure",
+        "NO_OF_CHILDREN": "Prs",
+        "STATUS": "Status",
+        "BALANCE": "Balance",
+        "COMPANY_PROFILE": "Company/Group",
+        "AGENT_PROFILE": "Agent/Source",
+        "RATE_CODE": "Rate Code",
+        "RATE_AMOUNT": "Rate Amount",
+        "VIEW": "View"
+      },
+      "SEARCH": {
+        "ROOM_NO": "Room",
+        "NAME": "Name",
+        "COMPANY": "Company",
+        "GROUP": "Group",
+        "SOURCE": "Source",
+        "AGENT": "Agent",
+        "CONTACT": "Contact",
+        "FIRST_NAME": "First Name",
+        "CORP_NO": "Corp No.",
+        "CONF_NO": "Conf No.",
+        "ARRIVAL_FROM": "Arrival From",
+        "ARRIVAL_TO": "Arrival To",
+        "IATA_NO": "IATA No."
+      }
+    },
+    "CHECKIN": {
+      "TITLE": "Check In",
+      "ROOM": "Room",
+      "PAYMENT_AMOUNT": "Payment Amount",
+      "BTN_SAVE": "Save",
+      "BTN_CANCEL": "Cancel",
+      "BTN_CHECKIN": "Check In",
+      "CREDITCARD": {
+        "PAYMENTTYPE": "Payment Type",
+        "CREDITCARD_TYPE": "Credit Card Type",
+        "CARD_NUMBER": "Card Number",
+        "CARD_HOLDER_NAME": "Card Holder Name",
+        "CARD_EXPIRATION_DATE": "Expiraton Date",
+        "CARD_CVV": "CVV"
+      },
+      "CHECK_IN_OPTIONS": {
+        "POST_CHARGES_ON_CHECK_IN": "Post Charges On Check-In",
+        "ACTIVE_NIGHT_POST": "Activate Night Posting"
+      },
+      "VALIDATIONS": {
+        "cardNumber": {
+          "required": "Card Number is required."
+        },
+        "creditCardType": {
+          "required": "Credit Card Type  is required."
+        },
+        "cardHolderName": {
+          "required": "Card Holder Name is required."
+        },
+        "expirationDate": {
+          "required": "Expiration Date is required."
+        },
+        "crsNo": {
+          "required": "Crs No. is required."
+        },
+        "paymentType": {
+          "required": "Payment Type is required."
+        }
+      }
+    },
+    "TRACE_SEARCH": {
+      "PAGE_TITLE": "Traces",
+      "SEARCH_OPT": {
+        "NAME": "Name",
+        "ROOM_NO": "Room No",
+        "ENTERED_BY": "Entered By",
+        "CFM_NO": "Confirmation No.",
+        "ARRIVAL_DATE": "Arrival Date",
+        "TRACE_DATE": "Trace Date",
+        "ALL": "All",
+        "RESOLVED": "Resolved",
+        "UNRESOLVED": "Unresolved"
+      },
+      "TRACE_RESOLVE": {
+        "VALIDATIONS": {
+          "description": {
+            "required": "Descrption is required."
+          }
+        },
+        "DESCRIPTION": "Description",
+        "COMMENT": "Comment",
+        "CB_SET_UNRESOLVE": "Set as Unresolve",
+        "UPDATE_SUCCESS": {
+          "TITLE": "Update",
+          "MSG": "Successfully updated."
+        }
+      },
+      "TABLE_COL": {
+        "NAME": "Name",
+        "ROOM_NO": "Room No",
+        "CFM_NO": "CONF#.",
+        "ARRIVAL_DATE": "Arrival Date",
+        "TRACE_DATE": "Trace Date",
+        "ENTERED_BY": "Entered By",
+        "COMMENT": "Comments",
+        "RESOLVED_AT": "Resolved At",
+        "RESOLVED_BY": "Resolved By",
+        "DESCRIPTION": "Description"
+      },
+      "TRACE_DELETE": {
+        "CFM_POPUP_TITLE": "Delete Confirmation",
+        "CFM_POPUP_MSG": "Do you really want to delete?",
+        "DELETE_SUCCESS_TITLE": "Delete",
+        "DELETE_SUCCESS_MSG": "Succssfully deleted."
+      }
+    }
+  },
+  "HOUSE_KEEPING": {
+    "ROOM_DASHBOARD": {
+      "TITLE": "Room Dashboard"
+    }
+  },
+  "MISCELLANEOUS": {
+    "EMENU_CONFIGURATION": {
+      "EMENU_TYPE": {
+        "TITLE": "E Menu Type",
+        "TABLE_COL": {
+          "TYPENAME": "E Menu Type Name",
+          "IMAGEURL": "Image URL",
+          "STARTTIME": "Start Time",
+          "ENDTIME": "End Time",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "UPDATE": {
+          "TITLE": "Update EMenu Type"
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this E Menu Type?",
+            "DELETE_SUCCESS": "E Menu Type  is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        },
+        "ADD_NEW": {
+          "LBL_TYPENAME": "E Menu Type Name *",
+          "LBL_URL": "Type Image *",
+          "LBL_STARTTIME": "Start time *",
+          "LBL_ENDTIME": "End time *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New E Menu Type"
+        },
+        "VALIDATIONS": {
+          "typeName": {
+            "required": "Type Name  is required."
+          },
+          "url": {
+            "required": "An Image is required."
+          },
+          "startTime": {
+            "required": "Start Time is required."
+          },
+          "endTime": {
+            "required": "End Time is required."
+          }
+        }
+      },
+      "EMENU_CATEGORY": {
+        "TITLE": "E Menu Category",
+        "TABLE_COL": {
+          "CATEGORYNAME": "EMenu Category Name",
+          "IMAGEURL": "Image URL",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_CATEGORYNAME": "E Menu Category Name *",
+          "LBL_URL": "Category Image*",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New E Menu Category"
+        },
+        "VALIDATIONS": {
+          "categoryName": {
+            "required": "Category Name  is required."
+          },
+          "url": {
+            "required": "An Image is required."
+          }
+        },
+        "UPDATE": {
+          "TITLE": "Update EMenu Category"
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this E Menu Category?",
+            "DELETE_SUCCESS": "E Menu Category  is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      },
+      "EMENU_ITEM": {
+        "TITLE": "E Menu Item",
+        "TABLE_COL": {
+          "ITEMNAME": "EMenu Item Name",
+          "MENUTYPE": "EMenu Types",
+          "MENUCATEGORY": "EMenu Category",
+          "DESCRIPTION": "Description",
+          "PRICE": "Price",
+          "IMAGEURL": "Image URL",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "ADD_NEW": {
+          "LBL_ITEMNAME": "EMenu Item Name *",
+          "LBL_MENUTYPE": "EMenu Types *",
+          "LBL_MENUCATEGORY": "EMenu Category*",
+          "LBL_DESCRIPTION": "Description*",
+          "LBL_PRICE": "Price*",
+          "LBL_IMAGEURL": "Item Image*",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New E Menu Item"
+        },
+        "VALIDATIONS": {
+          "itemName": {
+            "required": "Category Name  is required."
+          },
+          "url": {
+            "required": "An Image is required."
+          },
+          "menuType": {
+            "required": "Menu Type is required."
+          },
+          "menuCategory": {
+            "required": "Menu Category is required."
+          },
+          "price": {
+            "required": "Price is required."
+          },
+          "description": {
+            "required": "A Description is required."
+          }
+        },
+        "UPDATE": {
+          "TITLE": "Update EMenu Item "
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this E Menu Item?",
+            "DELETE_SUCCESS": "E Menu Item is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+        }
+      }
+    },
+    "ESERVICE_CONFIGURATION": {
+      "ROOM_SERVICE_CATEGORY": {
+        "TITLE": "Room Service Category",
+        "TABLE_COL": {
+          "NAME": "Room Service Category Name",
+          "IMAGEURL": "Image Url",
+          "SORT_ORDER": "Sort Order",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this Room Service Category?",
+            "DELETE_SUCCESS": "Room Service Category is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+
+        },
+        "ADD_NEW": {
+          "LBL_NAME": "Room Category Name *",
+          "LBL_URL": "Category Image *",
+          "LBL_SORTORDER": "Sort Order *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Room Category"
+        },
+        "VALIDATIONS": {
+          "name": {
+            "required": "Room Category Name  is required."
+          },
+          "url": {
+            "required": "An Image is required."
+          },
+          "sortOrder": {
+            "required": "Sort Order is required."
+          }
+        },
+        "UPDATE": {
+          "TITLE": "Update Room Category"
+        }
+      },
+      "ROOM_SERVICE_ITEM": {
+        "TITLE": "Room Service Items",
+        "TABLE_COL": {
+          "NAME": "Room Service Item Name",
+          "IMAGEURL": "Image Url",
+          "ROOM_CATEGORY": "Room Category",
+          "DESCRIPTION": "Description",
+          "SORT_ORDER": "Sort Order",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this Room Service Item?",
+            "DELETE_SUCCESS": "Room Service Item is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+
+        },
+        "ADD_NEW": {
+          "LBL_NAME": "Room Item Name *",
+          "LBL_URL": "Item Image *",
+          "LBL_SORTORDER": "Sort Order *",
+          "LBL_ROOM_CATEGORY": "Room Category *",
+          "LBL_ROOM_DESCRIPTION": "Description *",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Room Item"
+        },
+        "VALIDATIONS": {
+          "name": {
+            "required": "Room Item Name  is required."
+          },
+          "url": {
+            "required": "An Image is required."
+          },
+          "roomCategory": {
+            "required": "Room Category is required."
+          },
+          "description": {
+            "required": "Description is required."
+          },
+          "sortOrder": {
+            "required": "Sort Order is required."
+          }
+        },
+        "UPDATE": {
+          "TITLE": "Update Room Item"
+        }
+      },
+      "ROOM_SERVICE_REQUEST": {
+        "TITLE": "Room Service Request",
+        "SEARCHOP":{
+          "RESSERVATION_NUMBER":"Reservation No",
+          "SERVICE_ITEM": "Service Item",
+          "EXPECTED_DATE": "Expected Date",
+          "GUEST_NAME":"Guest Name"
+        },
+        "TABLE_COL": {
+          "RESSERVATION_NUMBER": "Reservation",
+          "SERVICE_ITEM": "Service Item",
+          "ROOM_NO": "Room No",
+          "EXPECTED_TIME": "Expected Time",
+          "EXPECTED_DATE": "Expected Date",
+          "STATUS": "Status",
+          "COMMENT": "Comment",
+          "TRACE": "Trace",
+          "IS_NOTIFIED": "Is Notified",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this Room Service Request?",
+            "DELETE_SUCCESS": "Room Service Request is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+
+        },
+        "ADD_NEW": {
+          "TOP_PANEL": {
+            "NAME": "Name",
+            "ARRIVAL": "Arrival",
+            "DEPARTURE": "Departure",
+            "RSV_NUMBER": "Reservation No"
+          },
+          "LBL_NAME": "Room Service Request *",
+          "LBL_ROOM_NO": "Room No",
+          "LBL_SERVICE_ITEM": "Service Item",
+          "LBL_EXPECTED_TIME": "Expected Time",
+          "LBL_EXPECTED_DATE": "Expected Date *",
+          "LBL_COMMENT": "Comment",
+          "LBL_STATUS": "Status",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New Room Service Request"
+        },
+        "VALIDATIONS": {
+          "roomNo": {
+            "required": "Room No  is required."
+          },
+          "serviceItem": {
+            "required": "Service Item is required."
+          },
+          "expDate": {
+            "required": "Date is required."
+          },
+          "expTime": {
+            "required": "Time is required."
+          },
+          "status": {
+            "required": "Status required."
+          }
+        },
+        "UPDATE": {
+          "TITLE": "Update Room Item"
+        }
+      },
+      "EMENU_ORDER": {
+        "TITLE": "E Menu Order",
+        "SEARCHOP":{
+          "RESSERVATION_NUMBER": "Reservation",
+          "ORDER_ITEM": "Order Item",
+          "EXPECTED_DATE": "Expected Date",
+          "GUEST_NAME":"Guest Name"
+        },
+        "TABLE_COL": {
+          "RESSERVATION_NUMBER": "Reservation",
+          "ORDER_ITEM": "Oder Item",
+          "ROOM_NO": "Room No",
+          "EXPECTED_TIME": "Expected Time",
+          "EXPECTED_DATE": "Expected Date",
+          "STATUS": "Status",
+          "DINEINAT": "DineIn At",
+          "TRACE": "Trace",
+          "IS_NOTIFIED": "Is Notified",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "MESSAGES": {
+          "DELETE": {
+            "CONFIRMATION": "Are you sure you want to delete this E Menu Order?",
+            "DELETE_SUCCESS": "E Menu Order is deleted successfully",
+            "MESSAGE_TITLE": "Delete Confirmation"
+          }
+
+        },
+        "ADD_NEW": {
+          "TOP_PANEL": {
+            "NAME": "Name",
+            "ARRIVAL": "Arrival",
+            "DEPARTURE": "Departure",
+            "RSV_NUMBER": "Reservation No"
+          },
+          "LBL_NAME": "Room Service Request *",
+          "LBL_ROOM_NO": "Room No",
+          "LBL_EMENU_ITEM": "Emenu Item",
+          "LBL_QUANTITY": "Quantity",
+          "LBL_PRICE": "Price",
+          "LBL_EXPECTED_TIME": "Expected Time",
+          "LBL_EXPECTED_DATE": "Expected Date *",
+          "LBL_COMMENT": "Comment",
+          "LBL_STATUS": "Status",
+          "BTN_SAVE": "Save",
+          "BTN_CANCEL": "Cancel",
+          "BTN_DELETE": "Delete",
+          "TITLE": "Add New E Menu Order"
+        },
+        "VALIDATIONS": {
+          "roomNo": {
+            "required": "Room No  is required."
+          },
+          "expDate": {
+            "required": "Date is required."
+          },
+          "expTime": {
+            "required": "Time is required."
+          },
+          "emenuItem": {
+            "required": "Emenu Item is required."
+          },
+          "qty": {
+            "required": "Quantity is required."
+          },
+          "price":{
+            "required": "Price is required."
+          },
+          "status": {
+            "required": "Status required."
+          }
+        },
+        "UPDATE": {
+          "TITLE": "Update E Menu Order"
+        }
+      }
+    }
+  },
+  "RESERVATION": {
+    "CREATE_RESERVATION": {
+      "TITLE": "Create Reservation",
+      "TABLE_COL": {
+        "CODE": "Reservation Type Code",
+        "DESCRIPTION": "Description",
+        "SEQUENCE": "Sequence",
+        "EDIT": "Edit",
+        "DELETE": "Delete",
+        "UPDATE": "Update"
+      },
+      "ADD_NEW": {
+        "LBL_CODE": "Reservation Type Code",
+        "LBL_DESCRIPTION": "Description",
+        "LBL_SEQUENCE": "Sequence",
+        "LBL_ARRIVAL": "Arrival *",
+        "LBL_DEPARTURE": "Departure *",
+        "LBL_NIGHTS": "Nights *",
+        "LBL_ADULTS": "Adults *",
+        "LBL_CHILDREN": "Children *",
+        "LBL_NOOFROOM": "No of Rooms *",
+        "LBL_NAME": "Name",
+        "LBL_COMPANY": "Company",
+        "LBL_HOURS": "Hours *",
+        "LBL_RSV_TYPE": "RSV Type *",
+        "LBL_IS_SUPPRESS": "Is Suppress",
+        "LBL_IS_HOURUSE": " Is Hour Use",
+        "LBL_IS_PRINTED": "Is Printed",
+        "LBL_IS_MEMBERSHIP": "Is Membership",
+        "LBL_IS_NEGOTIATED": "Is Negotiated",
+        "LBL_IS_PUBLISHED": "Is Published",
+        "LBL_AGENT": "Agent",
+        "LBL_SOURCE": "Source",
+        "LBL_GROUP": "Group",
+        "LBL_CONTACT": "Contact",
+        "BTN_SAVE": "Next",
+        "BTN_NEXT": "Next",
+        "BTN_CHANGE": "Change",
+        "BTN_CANCEL": "Close",
+        "BTN_DELETE": "Delete",
+        "TITLE": "Create Reservation",
+        "RATE_DAY_TITLE": "Daily Rate Details"
+      },
+      "RESERVATION_DETAILS": {
+        "TITLE": "Reservation Details",
+        "TITLE_WALK_IN_CHECK_IN": "Walk-In Check-In",
+        "LBL_NAME": "Name *",
+        "LBL_FIRST_NAME": "First Name",
+        "LBL_LAST_NAME": "Last Name *",
+        "BTN_FIND_RATE": "Reload Grid",
+        "LBL_COUNTRY": "Country",
+        "LBL_SALUTATION": "Salutation",
+        "LBL_TITLE": "Title",
+        "LBL_GENDER": "Geder",
+        "LBL_PHONE": "Phone",
+        "LBL_LANGUAGE": "Language",
+        "LBL_VIP": "VIP",
+        "LBL_COMPANY": "Company",
+        "LBL_AGENT": "Agent",
+        "LBL_GROUP": "Group",
+        "LBL_SOURCE": "Source",
+        "LBL_ARRIVAL": "Arrival *",
+        "LBL_DEPARTURE": "Departure *",
+        "LBL_NIGHTS": "Nights *",
+        "LBL_HOURS": "Hours *",
+        "LBL_RSV_TYPE": "RSV Type *",
+        "LBL_NO_OF_ROOMS": "No Of Rooms *",
+        "LBL_ADULTS": "Adults *",
+        "LBL_CHILDREN": "Children *",
+        "LBL_ROOM_TYPE": "Room Type *",
+        "LBL_ROOM_NO": "Room No",
+        "LBL_RATE_CODE": "Rate Code",
+        "LBL_RATE": "Rate",
+        "LBL_CURRENCY": "Currency",
+        "LBL_ETA": "ETA",
+        "LBL_RES_TYPE": "Reservation Type *",
+        "LBL_MARKET_CODE": "Market Code *",
+        "LBL_SOURCE_CODE": "Source Code *",
+        "LBL_PAYMENT": "Payment",
+        "LBL_EXP_DATE": "EXP Date",
+        "LBL_COMMENT": "Comment",
+        "LBL_EXTERNAL_REF": "Value",
+        "LBL_GUESTBALANCE": "Guest Balance",
+        "LBL_PREFERENCES": "Preferences",
+        "LBL_FEATURES": "Features",
+        "LBL_CREDIT_CARD_NO": "Credit Card No",
+        "LBL_EXTERNAL_SYSTEM": "External System",
+        "BTN_SAVE": "Save",
+        "BTN_NEXT": "Next",
+        "BTN_CANCEL": "Close",
+        "LBL_IS_DIRECT_BILLING": "Activate Advanced Billing",
+        "LBL_IS_ASSIGN_NEW_GUEST": "Assign New Guest",
+        "LBL_IS_TURNDOWN": "Is Turndown"
+      },
+      "EXTERNAL_SYSTEM": {
+        "CODE": "Code",
+        "VALUE": "Value",
+        "SEQUENCE": "Sequence",
+        "TITLE": "Update External Reference",
+        "UPDATE": "Update"
+      },
+      "UPDATE": {
+        "TITLE": "Update Account Type"
+      },
+      "VALIDATIONS": {
+        "arrival": {
+          "required": "Arrival date is required."
+        },
+        "departure": {
+          "required": "Departure date is required."
+        },
+        "noOfAdults": {
+          "required": "Adults is required."
+        },
+        "noOfChildren": {
+          "required": "Children is required."
+        },
+        "noOfRooms": {
+          "required": "No of room is required."
+        },
+        "individualProdile3rdStep": {
+          "required": "Individual prodile is required."
+        },
+        "firstName": {
+          "required": "First name is required."
+        },
+        "lastName": {
+          "required": "Last name is required."
+        },
+        "roomType": {
+          "required": "Room type is required."
+        },
+        "reservationType": {
+          "required": "Reservation type is required."
+        },
+        "marketCode": {
+          "required": "Market code is required."
+        },
+        "sourceCode": {
+          "required": "Source code is required."
+        },
+        "nights": {
+          "required": "No of nights is required."
+        },
+        "noOfHours": {
+          "required": "No of hours is required."
+        },
+        "totalDayRateAmount": {
+          "required": "Please provide valid amount."
+        }
+      },
+      "MESSAGES": {
+        "DELETE": {
+          "CONFIRMATION": "Are you sure you want to delete this account type?",
+          "DELETE_SUCCESS": "Account Type is deleted successfully",
+          "MESSAGE_TITLE": "Delete Confirmation"
+        }
+      }
+    },
+    "UPDATE_RESERVATION": {
+      "TITLE": "Update Reservation"
+    },
+    "RESERVATION_SEARCH": {
+      "TITLE": "Reservation Search",
+      "SEARCH_PERAMETERS": {
+        "NAME": "Name",
+        "ROOM_NUMBER": "Room No",
+        "FIRSTNAME": "First Name",
+        "ARRIVAL_FROM": "Arrival From",
+        "ARRIVAL_TO": "Arrival To",
+        "COMPANY": "Company",
+        "GROUP": "Group",
+        "SOURCE": "Source",
+        "AGENT": "Agent",
+        "IAIANO": "IATA No",
+        "CORPNO": "Corp No",
+        "CONF_NO": "Confirmation No",
+        "STATUS": "Reservation status",
+        "BTNSEARCH": "Search"
+      },
+      "GEUST_DATA_GRID": {
+        "NAME": "Name",
+        "CONFIRMATION_NO": "Conf #",
+        "RSV_USE": "RSV Use",
+        "ROOM": "Room",
+        "ROOMS": "Rooms",
+        "ROOM_TYPE": "Room Type",
+        "ARRIVAL": "Arrival",
+        "DEPARTURE": "Departure",
+        "NIGHTS": "Nights",
+        "STATUS": "Status",
+        "RATE_CODE": "Rate Code",
+        "RATE_AMOUNT": "Rate Amount",
+        "COMPANY_GROUP": "Company/Group",
+        "AGENT_SOURCE": "Agent/Source",
+        "PRS": "Prs",
+        "DELETE": "Delete",
+        "EDIT": "Edit"
+      }
+    },
+    "WAIT_LIST": {
+      "TITLE": "Wait-List Reservations"
+    },
+    "NO_SHOW": {
+      "TITLE": "No-Show Reservations"
+    },
+    "CREATE_ROUTING_INSTRUCTION": {
+      "ADD_NEW": {
+        "TITLE": "Create Routing Instruction",
+        "SAVE_BTN": "Create"
+      },
+      "UPDATE": {
+        "TITLE": "Update Routing Instruction",
+        "SAVE_BTN": "Save Changes"
+      },
+      "VALIDATIONS": {
+        "selectedProfile": {
+          "required": "Please select a profile."
+        },
+        "transactionCodes": {
+          "required": "Please select Transactions."
+        },
+        "limit": {
+          "required": "Please select Transactions."
+        },
+        "percent": {
+          "required": "Please select Transactions."
+        },
+        "beginDate": {
+          "required": "Please select a date."
+        },
+        "endDate": {
+          "required": "Please select a date."
+        }
+      },
+      "MESSAGES": {
+        "DELETE": {
+          "CONFIRMATION": "Are you sure you want to delete this routing instruction?",
+          "DELETE_SUCCESS": "Routing Instruction is deleted successfully",
+          "MESSAGE_TITLE": "Delete Confirmation"
+        }
+      }
+    },
+    "RESERVATION_TRACE": {
+      "TRACE_SEARCH": {
+        "TITLE": "Reservation Trace Search",
+        "BTN_ADD_NEW": "Add New",
+        "BTN_SEARCH": "Search",
+        "BTN_CANCEL": "Cancel",
+        "FILTER_OPT": {
+          "ALL": "All",
+          "RESOLVED": "Resolved",
+          "UNRESOLVED": "Unresolved"
+        },
+        "TABLE_COL": {
+          "DESCRIPTION": "Description",
+          "TRACE_DATE": "Trace Date",
+          "ENTERED_BY": "Entered By",
+          "RESOLVED_DATE": "Resolved At",
+          "RESOLVED_BY": "Resolved By",
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        },
+        "TRACE_DELETE": {
+          "CFM_POPUP_TITLE": "Delete Confirmation",
+          "CFM_POPUP_MSG": "Do you really want to delete?",
+          "DELETE_SUCCESS_TITLE": "Delete",
+          "DELETE_SUCCESS_MSG": "Successfully deleted."
+        },
+        "UPDATE_SUCCESS": {
+          "TITLE": "Update",
+          "MSG": "Successfully updated."
+        }
+      },
+      "CREATE_TRACE": {
+        "TITLE": "Create Reservation Trace",
+        "PROPERTIES": {
+          "FROM_DATE": "From Date *",
+          "TO_DATE": "To Date *",
+          "DESCRIPTION": "Description *",
+          "TRACE_TIME": "Trace Time *"
+        },
+        "VALIDATIONS": {
+          "description": {
+            "required": "Description is required."
+          },
+          "fromDate": {
+            "required": "From Date is required."
+          },
+          "toDate": {
+            "required": "To Date is required."
+          },
+          "traceTime": {
+            "required": "Trace Time is required."
+          }
+        },
+        "BTN_SAVE": "Save",
+        "BTN_CANCEL": "Cancel",
+        "CREATE_SUCCESS": {
+          "TITLE": "Add",
+          "MSG": "Successfully added."
+        },
+        "RESERVATION_DETL": {
+          "NAME": "Name",
+          "ROOM_NO": "Room No.",
+          "ARRIVAL": "Arrival",
+          "DEPARTURE": "Departure",
+          "STATUS": "Status"
+        }
+      },
+      "UPDATE_TRACE": {
+        "TITLE": "Update Reservation Trace",
+        "UPDATE_SUCCESS": {
+          "TITLE": "Update",
+          "MSG": "Successfully updated."
+        }
+      }
+    }
+  },
+  "AR": {
+    "AR_SEARCH": {
+      "TITLE": "AR Account Search",
+      "SEARCH_PERAMETERS": {
+        "NAME": "Account Name",
+        "FROM_ACC_NO": "From Account No",
+        "TO_ACC_NO": "To Account No",
+        "ARACCOUNTTYPE": "AR Account Type",
+        "ALL": "All",
+        "OPEN_BALANCE": "Open Balance",
+        "NO_BALANCE": "No Balance",
+        "BTNSEARCH": "Search",
+        "BTNINVOICE": "Invoices",
+        "BTNSTATEMENT": "Statements",
+        "BTNHISTORY": "History",
+        "LBL_RADIO": "Account Balance"
+      },
+      "AR_DATA_GRID": {
+        "ACCOUNT_NAME": "Account Name",
+        "ACCOUNT_NO": "Account No",
+        "BALANCE": "Balance",
+        "TYPE": "Type",
+        "DUE_DATES": "Due Dates",
+        "IS_APPROVED": "Is AR Approved",
+        "EDIT": "Edit",
+        "DELETE": "Delete"
+      },
+      "POPUP": {
+        "BTN_OK": "Ok",
+        "BTN_CANCEL": "Cancel"
+      },
+      "MESSAGES": {
+        "DELETE": {
+          "CONFIRMATION": "Are you sure you want to delete this AR Account?",
+          "DELETE_SUCCESS": "AR Account is deleted successfully",
+          "MESSAGE_TITLE": "Delete Confirmation"
+        }
+      }
+    },
+    "CREATE_AR": {
+      "ADD_NEW_TITLE": "Create New AR Account",
+      "UPDATE_TITLE": "Update AR Account",
+      "LBL_ACCOUNT_TYPE": "Account Type",
+      "LBL_ACCOUNT_NO": "Account No",
+      "LBL_CREDIT_LIMIT": "Credit Limit",
+      "LBL_PROFILE": "Profile",
+      "LBL_PAYMENT_DUE_DAYS": "Payment due days",
+      "LBL_LAST_REMINDER_SENT": "Last Reminder Sent",
+      "LBL_LAST_REMINDER_TEXT": "Last Reminder Text",
+      "LBL_LAST_STATEMENT_SENT": "Last Statement Sent",
+      "LBL_BALANCE": "Balance",
+      "LBL_IS_AR_APPROVED": "Is AR Approved",
+      "LBL_IS_DELETE": "Delete",
+      "BTN_SAVE": "Save",
+      "BTN_CANCEL": "Close",
+      "BTN_DELETE": "Delete"
+    },
+    "CREATE_AR_VALIDATIONS": {
+      "accountType": {
+        "required": "Account Type is required."
+      },
+      "accountNo": {
+        "required": "Account No is required."
+      },
+      "creditLimit": {
+        "required": "Credit Limit is required."
+      },
+      "accountName": {
+        "required": "profile is required."
+      },
+      "paymentDueDays": {
+        "required": "Payment Due Days is required."
+      }
+    },
+    "STATEMENTHISTORY": {
+      "TITLE": "Statement History",
+      "TABLE_COL": {
+        "DATE": "Date",
+        "CODE": "Statement Code",
+        "INVOICENO": "Invoice No",
+        "STATUS": "Status",
+        "ACCNO": "Account No",
+        "ACCNAME": "Account Name",
+        "EDIT": "Edit",
+        "VIEW": "View",
+        "ISSETTLED": "Is Settled",
+        "DELETE": "Delete",
+        "BTNBACK": "Back"
+      },
+      "EDIT_STATEMENT": {
+        "DATE": "Date",
+        "ACCNO": "Account No",
+        "ACCNAME": "Account Name",
+        "STATEMENTCODE": "Statement Code",
+        "STATUS": "Status",
+        "INVOICEDATE": "Invoice Date",
+        "INVOICENAME": "Name",
+        "INVOICENO": "Invoice No",
+        "AMOUNT": "Amount",
+        "BALANCE": "Balance",
+        "BTNSAVE": "Save",
+        "BTNCANCEL": "Cancel",
+        "BTNBACK": "Back"
+      },
+      "SEARCH_PERAMETERS": {
+        "BTNSEARCH": "Search",
+        "SENT": "Sent",
+        "GENERATED": "Generated",
+        "ISNOTSETTLED": "Is Not Settled",
+        "ISSETTLED": "Settled",
+        "ALL": "All"
+      }
+    },
+    "INVOICE": {
+      "TITLE": "Invoice Search",
+      "TABLE_COL": {
+        "DATE": "Date",
+        "NAME": "Name",
+        "INVOICENO": "Invoice No",
+        "IS_SETTLED": "Is Settled",
+        "AMOUNT": "Amount",
+        "TOTAL_CHARGE": "Total Charge",
+        "TOTAL_PAYMENT": "Total Payment",
+        "BALANCE": "Balance",
+        "STATEMENTCODE": "Statement Code",
+        "EDIT": "Edit",
+        "DELETE": "Delete"
+      },
+      "SEARCH_PERAMETERS": {
+        "TO_DATE": "To Date",
+        "FROM_DATE": "From Date",
+        "PROFILE": "Profile",
+        "GUESTFOLIO": "Guestfolio",
+        "BTNSEARCH": "Search",
+        "OPEN_BALANCE": "Open Balance",
+        "NO_BALANCE": "No Balance",
+        "NO_STATEMENT": "Open Balance with No Statement",
+        "LBL_SETTLE" : "Settlement Status",
+        "BTNSELECT": "Select",
+        "BTNSTATEMENT": "Generate",
+        "BTNSETTLE": "Settle",
+        "BTNBACK": "Back",
+        "ALL": "All",
+        "SETTLE": "Settled",
+        "NO_SETTLE": "Not Settled"
+      }
+    },
+    "AR_INVOICE": {
+      "TITLE": "AR Invoice Search",
+      "TABLE_COL": {
+        "DATE": "Date",
+        "NAME": "Name",
+        "GUESTFOLIO": "Guestfolio",
+        "FOLIO_WINDOW": "Folio Window",
+        "INVOICENO": "Invoice No",
+        "IS_SETTLED": "Is Settled",
+        "AMOUNT": "Amount",
+        "TOTAL_CHARGE": "Total Charge",
+        "TOTAL_PAYMENT": "Total Payment",
+        "BALANCE": "Balance",
+        "STATEMENTCODE": "Statement Code",
+        "EDIT": "Edit",
+        "DELETE": "Delete"
+      },
+      "SEARCH_PERAMETERS": {
+        "TO_DATE": "To Date",
+        "FROM_DATE": "From Date",
+        "PROFILE": "Profile",
+        "GUESTFOLIO": "Guestfolio",
+        "BTNSEARCH": "Search",
+        "OPEN_BALANCE": "Open Balance",
+        "NO_BALANCE": "No Balance",
+        "NO_STATEMENT": "Open Balance with No Statement",
+        "LBL_SETTLE" : "Settlement Status",
+        "BTN_CAHSIERING": "Billing",
+        "BTNBACK": "Back",
+        "ALL": "All",
+        "SETTLE": "Settled",
+        "NO_SETTLE": "Not Settled"
+      }
+    },
+    "CREATE_STATEMENT": {
+      "TITLE": "Create Statement",
+      "TABLE_COL": {
+        "DATE": "Date",
+        "NAME": "Name",
+        "DESCRIPTION": "Description",
+        "AMOUNT": "Amount",
+        "BALANCE": "Balance",
+        "STATEMENTCODE": "Statement Code",
+        "EDIT": "Edit",
+        "DELETE": "Delete"
+      }
+    }
+  },
+  "PROFILE": {
+    "PROFILE_SEARCH": {
+      "TITLE": "Profile Search",
+      "SEARCH_PERAMETERS": {
+        "NAME": "Name",
+        "FIRSTNAME": "First Name",
+        "PROFILETYPE": "Profile Type",
+        "CITY": "City",
+        "POSTALCODE": "Postal Code",
+        "COMMUNICATION": "Communication",
+        "PASPORTNO": "Possport No",
+        "CLIENTID": "Client Id",
+        "IAIANO": "IATA No",
+        "CORPNO": "Corp No",
+        "ARNO": "A/R No",
+        "BTNSEARCH": "Search",
+        "BTNSTATEMENT": "Statement"
+      },
+      "GEUST_DATA_GRID": {
+        "NAME": "Name",
+        "ADDRESS": "Address",
+        "CITY": "City",
+        "POSTALCODE": "Postal Code",
+        "COMPANY": "Company",
+        "ARNO": "A/R No",
+        "VIP": "VIP",
+        "RATECODE": "Rate Code",
+        "TITLE": "Title",
+        "COUNTRY": "Country",
+        "PTYPE": "P.Type",
+        "CLIENTID": "Client Id",
+        "EMAIL": "Email",
+        "PHONE": "Phone",
+        "PASPORTNO": "Pasport No"
+      },
+      "GEUST_RESERVATION_GRID": {
+        "TITLE": "Future Reservations",
+        "ROOM": "Room",
+        "ROOMTYPE": "Room Type",
+        "ARRIVAL": "Arrival",
+        "DEPARTURE": "Departure",
+        "ROOMS": "Rooms",
+        "STATUS": "Status",
+        "COMPANY_GROUP": "Company/Group",
+        "TRAVEL_SOURCE": "Travel Source",
+        "RATECODE": "Rate Code",
+        "RATEAMOUNT": "Rate Amount"
+      },
+      "POPUP": {
+        "BTN_OK": "Ok",
+        "BTN_CANCEL": "Cancel"
+      }
+    },
+    "CREATE_PROFILE": {
+      "LBL_FIRST_NAME": "First Name",
+      "LBL_LAST_NAME": "Last Name *",
+      "LBL_OTHERPROFILE_LAST_NAME": "Last Name",
+      "LBL_MIDDLE_NAME": "Middle Name",
+      "LBL_DATEOFBIRTH": "Date Of Birth (dd/mm/yyyy)",
+      "LBL_PASSEXP": "Passport Expiration Date (dd/mm/yyyy)",
+      "LBL_SALUTATION": "Salutation",
+      "LBL_TITLE": "Title",
+      "LBL_NATIONALITY": "Nationality",
+      "LBL_LANGUAGE": "Language",
+      "LBL_VIP": "VIP",
+      "LBL_BUSINESSSEGMENT": "Business Segment",
+      "LBL_VISATYPE": "Visa Type",
+      "LBL_PASSPORTNO": "Passport No",
+      "LBL_NOTE": "Note",
+      "LBL_CURRENCY": "Currency",
+      "LBL_NAME": "Name *",
+      "LBL_CLIENTID": "Client Id",
+      "LBL_PROFILETYPE": "Profile Type",
+      "LBL_ARNO": "AR No",
+      "CHK_ISACTIVE": "Is Active",
+      "CHK_ISCONTACT": "Is Contact",
+      "BTN_SAVE": "Save",
+      "BTN_CANCEL": "Close",
+      "LBL_REFERRAL_CODE": "Referral Code"
+    },
+    "VALIDATIONS": {
+      "lastName": {
+        "required": "Last Name is required.",
+        "minlength": "Last Name must be at least two characters."
+      },
+      "name": {
+        "required": "Name is required.",
+        "minlength": "Last Name must be at least two characters."
+      }
+    },
+    "TITLES": {
+      "CREATE_INDIVIDUAL_PROFILE": "Create Individual Profile",
+      "UPDATE_INDIVIDUAL_PROFILE": "Update Individual Profile",
+      "CREATE_COMPANY_PROFILE": "Create Company Profile",
+      "UPDATE_COMPANY_PROFILE": "Update Company Profile",
+      "CREATE_AGENT_PROFILE": "Create Agent Profile",
+      "UPDATE_AGENT_PROFILE": "Update Agent Profile",
+      "CREATE_SOURCE_PROFILE": "Create Source Profile",
+      "UPDATE_SOURCE_PROFILE": "Update Source Profile",
+      "CREATE_GROUP_PROFILE": "Create Group Profile",
+      "UPDATE_GROUP_PROFILE": "Update Group Profile",
+      "CREATE_CONTACT_PROFILE": "Create Contact Profile",
+      "UPDATE_CONTACT_PROFILE": "Update Contact Profile"
+    },
+    "PROFILE_ATTACHMENTS": {
+      "VALIDATIONS": {
+        "documentType": {
+          "required": "Document Type is required."
+        },
+        "fileUrl": {
+          "required": "File Url is required."
+        },
+        "comment": {
+          "required": "Comment is required."
+        }
+      }
+    },
+    "MEMBERSHIP": {
+      "POPUP": {
+        "TITLE": "Profile Membership",
+        "PROPERTY": {
+          "ISACTIVE": "Activate Membership",
+          "COMMENT": "Comment",
+          "EXPIRE_DATE": "Expire Date",
+          "START_DATE": "Start Date",
+          "MEMBERSHIP_LEVEL": "Membership Level"
+        },
+        "BTN_CANCEL": "Cancel",
+        "BTN_SAVE": "Save"
+      },
+      "VALIDATIONS": {
+        "membershipLevel": {
+          "required": "Membership Level is required."
+        },
+        "startDate": {
+          "required": "Start date is required."
+        },
+        "expireDate": {
+          "required": "Expire date is required."
+        }
+      }
+    }
+  },
+  "COMMON" :{
+    "BTN_OK":"Ok",
+    "BTN_EDIT":"Edit",
+    "BTN_SAVE":"Save",
+    "BTN_ADD":"Add",
+    "BTN_CLEAR":"Clear",
+    "BTN_CANCEL":"Cancel"
+  }
+}
