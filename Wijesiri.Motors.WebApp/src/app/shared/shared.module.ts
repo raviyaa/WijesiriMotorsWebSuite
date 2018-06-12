@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { DefaultLayoutComponent } from './default-layout/default-layout.component';
+import { AuthenticationService } from '../core/authentication.service';
 
 @NgModule({
   imports: [
@@ -13,6 +14,9 @@ import { DefaultLayoutComponent } from './default-layout/default-layout.componen
   ],
   exports: [
     DefaultLayoutComponent
-  ]
+  ],
+  providers: [
+    AuthenticationService
+    ]
 })
 export class SharedModule { }

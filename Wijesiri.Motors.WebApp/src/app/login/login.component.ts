@@ -34,6 +34,7 @@ export class LoginComponent implements OnInit, AfterViewInit, OnDestroy {
     if (this.loginForm.valid) {
       this.authenticationService.login(this.loginForm.value).subscribe(res => {
         if (!_.isEmpty(res.result)) {
+          this.initLogin(res.result[0]);
           this.router.navigateByUrl('/dashboard');
         } else {
           console.log('error');
@@ -42,5 +43,10 @@ export class LoginComponent implements OnInit, AfterViewInit, OnDestroy {
       });
 
     }
+  }
+
+  initLogin(user) {
+    this.authenticationService.setCurrentUser(user);
+    this.authenticationService.setModules(user.module);
   }
 }

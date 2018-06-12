@@ -15,6 +15,23 @@ export class AuthenticationService {
       .pipe(map((res) => res.json()));
   }
 
+  setCurrentUser(user) {
+    sessionStorage.setItem('CurrentUser', JSON.stringify(user));
+  }
+
+  getCurrentUser() {
+    return JSON.parse(sessionStorage.getItem('CurrentUser'));
+  }
+
+  setModules(modules) {
+      sessionStorage.setItem('Modules', JSON.stringify(modules));
+  }
+
+  getModules() {
+    return JSON.parse(sessionStorage.getItem('Modules'));
+  }
+
+
   errorhandler(error: Response) {
     console.error(error);
     return Observable.throw(error || 'Server Error');
