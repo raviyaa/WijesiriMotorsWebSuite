@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, Inject } from '@angular/core';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
@@ -28,6 +28,9 @@ import { DefaultLayoutComponent } from './shared/components/default-layout/defau
 import { Http } from '@angular/http';
 import { TranslateModule, TranslateLoader, TranslateService, TranslateStaticLoader } from 'ng2-translate';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { IAppConfig } from './app-config/app-config.interface';
+import { APP_CONFIG, APP_DI_CONFIG } from './app-config/app-config.constants';
+import { SharedService } from './shared/shared.service';
 export function createTranslateLoader(http: Http) {
   return new TranslateStaticLoader(http, './assets/i18n', '.json');
 }
@@ -61,7 +64,35 @@ export function createTranslateLoader(http: Http) {
   providers: [{
     provide: LocationStrategy,
     useClass: HashLocationStrategy,
-  }],
+  }, {
+    provide: APP_CONFIG,
+    useValue: APP_DI_CONFIG
+  },
+    SharedService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  lang: any;
+
+  constructor(translateService: TranslateService,
+    @Inject(APP_CONFIG) config: IAppConfig,
+    sharedService: SharedService) {
+
+    this.lang = { id: config.LANGUAGE_DEFAULT.ID, title: config.LANGUAGE_DEFAULT.NAME };
+    sharedService.setSelectedLanguage(this.lang);
+
+    const langs = [];
+    config.LANGUAGES.map(ln => {
+      langs.push(ln.ID);
+    });
+    translateService.addLangs(langs);
+    translateService.setDefaultLang(config.LANGUAGE_DEFAULT.ID);
+    translateService.use(this.lang.id);
+    sharedService.langUpdated.subscribe(
+      (lang) => {
+        translateService.use(lang.id);
+      }
+    );
+
+  }
+}

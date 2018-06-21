@@ -6,8 +6,7 @@ export const APP_DI_CONFIG: IAppConfig = {
   LANGUAGE_DEFAULT: { ID: 'en', NAME: 'English' },
   LANGUAGES: [
     { ID: 'en', NAME: 'English' },
-    { ID: 'zh', NAME: '	Chinese' },
-    { ID: 'fr', NAME: '	French' }
+    { ID: 'sn', NAME: '	Sinhala' }
   ],
   IMAGE_UPLOAD_LOCATION: ' ',
   IMAGE_URL: 'http://localhost:4200/',

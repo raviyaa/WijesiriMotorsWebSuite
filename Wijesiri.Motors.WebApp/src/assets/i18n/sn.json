@@ -1,7 +1,7 @@
 {
     "LOGIN": {
         "TITLE": "登录到 clovatel",
-        "USERNAME": "电子邮件或用户名",
+        "USERNAME": "පස්ස්වාර්ඩ්",
         "PASSWORD": "密码",
         "BTN_TEXT": "登录",
         "FORGOT_PASSWORD": "忘记密码",
