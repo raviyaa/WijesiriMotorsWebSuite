@@ -5,6 +5,8 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { EstimateRoutingModule } from './estimate-routing.module';
 import { EstimateHomeComponent } from './estimate-home/estimate-home.component';
+import { CreateEstimateComponent } from './create-estimate/create-estimate.component';
+import { SharedModule } from '../../shared/shared.module';
 
 
 @NgModule({
@@ -13,8 +15,12 @@ import { EstimateHomeComponent } from './estimate-home/estimate-home.component';
     EstimateRoutingModule,
     ChartsModule,
     BsDropdownModule,
-    ButtonsModule.forRoot()
+    ButtonsModule.forRoot(),
+    SharedModule.forRoot()
   ],
-  declarations: [EstimateHomeComponent]
+  declarations: [
+    EstimateHomeComponent,
+    CreateEstimateComponent
+  ]
 })
 export class EstimateModule { }

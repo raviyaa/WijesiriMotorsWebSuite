@@ -5,6 +5,8 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { VehicleRoutingModule } from './vehicle-routing.module';
 import { VehicleHomeComponent } from './vehicle-home/vehicle-home.component';
+import { SharedModule } from '../../shared/shared.module';
+import { CreateVehicleComponent } from './create-vehicle/create-vehicle.component';
 
 
 @NgModule({
@@ -13,8 +15,12 @@ import { VehicleHomeComponent } from './vehicle-home/vehicle-home.component';
     VehicleRoutingModule,
     ChartsModule,
     BsDropdownModule,
-    ButtonsModule.forRoot()
+    ButtonsModule.forRoot(),
+    SharedModule.forRoot()
   ],
-  declarations: [VehicleHomeComponent]
+  declarations: [
+    VehicleHomeComponent,
+    CreateVehicleComponent
+  ]
 })
 export class VehicleModule { }
