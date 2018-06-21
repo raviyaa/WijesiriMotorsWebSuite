@@ -31,6 +31,10 @@ export const routes: Routes = [
       {
         path: 'estimate',
         loadChildren: './modules/estimate/estimate.module#EstimateModule'
+      },
+      {
+        path: 'customer',
+        loadChildren: './modules/customer/customer.module#CustomerModule'
       }
     ]
   }
