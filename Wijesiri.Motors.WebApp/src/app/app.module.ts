@@ -1,6 +1,7 @@
+import { RouterModule } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, Inject } from '@angular/core';
-import { LocationStrategy, HashLocationStrategy } from '@angular/common';
+import { LocationStrategy, HashLocationStrategy, APP_BASE_HREF } from '@angular/common';
 
 import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
 import { PERFECT_SCROLLBAR_CONFIG } from 'ngx-perfect-scrollbar';
@@ -31,14 +32,56 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { IAppConfig } from './app-config/app-config.interface';
 import { APP_CONFIG, APP_DI_CONFIG } from './app-config/app-config.constants';
 import { SharedService } from './shared/shared.service';
+import {
+  MatAutocompleteModule,
+  MatButtonModule,
+  MatButtonToggleModule,
+  MatCardModule,
+  MatCheckboxModule,
+  MatChipsModule,
+  MatDatepickerModule,
+  MatDialogModule,
+  MatExpansionModule,
+  MatGridListModule,
+  MatIconModule,
+  MatInputModule,
+  MatListModule,
+  MatMenuModule,
+  MatNativeDateModule,
+  MatProgressBarModule,
+  MatProgressSpinnerModule,
+  MatRadioModule,
+  MatRippleModule,
+  MatSelectModule,
+  MatSidenavModule,
+  MatSliderModule,
+  MatSlideToggleModule,
+  MatSnackBarModule,
+  MatTabsModule,
+  MatToolbarModule,
+  MatTooltipModule,
+  MatPaginatorModule,
+  MatStepperModule,
+  MatFormFieldModule
+} from '@angular/material';
+
 export function createTranslateLoader(http: Http) {
   return new TranslateStaticLoader(http, './assets/i18n', '.json');
 }
 
+
+
 @NgModule({
   imports: [
+    SharedModule.forRoot(),
     BrowserModule,
     AppRoutingModule,
+    TranslateModule.forRoot({
+      provide: TranslateLoader,
+      useFactory: (createTranslateLoader),
+      deps: [Http]
+    }),
+    ChartsModule,
     AppAsideModule,
     AppBreadcrumbModule.forRoot(),
     FormsModule,
@@ -48,15 +91,10 @@ export function createTranslateLoader(http: Http) {
     AppSidebarModule,
     PerfectScrollbarModule,
     BsDropdownModule.forRoot(),
-    TranslateModule.forRoot({
-      provide: TranslateLoader,
-      useFactory: (createTranslateLoader),
-      deps: [Http]
-    }),
     TabsModule.forRoot(),
-    ChartsModule,
     LoginModule
   ],
+  exports: [DefaultLayoutComponent],
   declarations: [
     AppComponent,
     DefaultLayoutComponent
@@ -68,6 +106,7 @@ export function createTranslateLoader(http: Http) {
     provide: APP_CONFIG,
     useValue: APP_DI_CONFIG
   },
+  { provide: APP_BASE_HREF, useValue: '/' },
     SharedService],
   bootstrap: [AppComponent]
 })

@@ -26,15 +26,19 @@ export const routes: Routes = [
     children: [
       {
         path: 'dashboard',
-        loadChildren: './modules/dashboard/dashboard.module#DashboardModule'
+        loadChildren: 'app/modules/dashboard/dashboard.module#DashboardModule'
       },
       {
         path: 'estimate',
-        loadChildren: './modules/estimate/estimate.module#EstimateModule'
+        loadChildren: 'app/modules/estimate/estimate.module#EstimateModule'
       },
       {
         path: 'customer',
-        loadChildren: './modules/customer/customer.module#CustomerModule'
+        loadChildren: 'app/modules/customer/customer.module#CustomerModule'
+      },
+      {
+        path: 'vehicle',
+        loadChildren: 'app/modules/vehicle/vehicle.module#VehicleModule'
       }
     ]
   }
@@ -45,3 +49,7 @@ export const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
+export const routedComponents = [
+  DefaultLayoutComponent
+];
