@@ -1,6 +1,6 @@
-import { AppModule } from './../../app.module';
+import { AppModule, createTranslateLoader } from './../../app.module';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
 import { ChartsModule } from 'ng2-charts/ng2-charts';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
@@ -13,11 +13,13 @@ import {
   MatToolbarModule,
   MatIconModule, MatCardModule, MatSidenavModule, MatFormFieldModule, MatInputModule, MatTooltipModule
 } from '@angular/material';
-import { APP_BASE_HREF } from '@angular/common';
+import { APP_BASE_HREF, CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { SharedModule } from '../../shared/shared.module';
 import { DefaultLayoutComponent } from '../../shared/components/default-layout/default-layout.component';
 import { TileMenuComponent } from '../../shared/components/tile-menu/tile-menu.component';
+import { TranslateModule, TranslateLoader } from 'ng2-translate';
+import { Http } from '@angular/http';
 
 const materialModules = [
   MatButtonModule,
@@ -41,7 +43,14 @@ const materialModules = [
     ChartsModule,
     BsDropdownModule,
     materialModules,
-    ButtonsModule.forRoot()
+    ReactiveFormsModule,
+    CommonModule,
+    ButtonsModule.forRoot(),
+    TranslateModule.forRoot({
+      provide: TranslateLoader,
+      useFactory: (createTranslateLoader),
+      deps: [Http]
+    }),
   ],
   declarations: [
     CustomerHomeComponent,

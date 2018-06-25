@@ -17,6 +17,7 @@ import {
   MatSidenavModule, MatFormFieldModule, MatInputModule, MatTooltipModule
 } from '@angular/material';
 import { TileMenuComponent } from './components/tile-menu/tile-menu.component';
+import { BrowserModule } from '@angular/platform-browser';
 
 const materialModules = [
   MatButtonModule,

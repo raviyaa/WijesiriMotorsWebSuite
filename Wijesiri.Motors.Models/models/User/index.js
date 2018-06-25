@@ -3,7 +3,13 @@
 var user = require('./User'),
     UserSchema = user.UserSchema;
 
+	var userType = require('./UserType'),
+    UserTypeSchema = userType.UserTypeSchema;
+
+
+	
 
 module.exports = {
-    UserSchema: UserSchema
+    UserSchema: UserSchema,
+	UserTypeSchema:UserTypeSchema
 };

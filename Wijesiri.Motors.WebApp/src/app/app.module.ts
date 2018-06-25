@@ -1,5 +1,4 @@
 import { RouterModule } from '@angular/router';
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, Inject } from '@angular/core';
 import { LocationStrategy, HashLocationStrategy, APP_BASE_HREF } from '@angular/common';
 
@@ -64,6 +63,7 @@ import {
   MatStepperModule,
   MatFormFieldModule
 } from '@angular/material';
+import { BrowserModule } from '@angular/platform-browser';
 
 export function createTranslateLoader(http: Http) {
   return new TranslateStaticLoader(http, './assets/i18n', '.json');
@@ -74,7 +74,6 @@ export function createTranslateLoader(http: Http) {
 @NgModule({
   imports: [
     SharedModule.forRoot(),
-    BrowserModule,
     AppRoutingModule,
     TranslateModule.forRoot({
       provide: TranslateLoader,
@@ -82,6 +81,7 @@ export function createTranslateLoader(http: Http) {
       deps: [Http]
     }),
     ChartsModule,
+    BrowserModule,
     AppAsideModule,
     AppBreadcrumbModule.forRoot(),
     FormsModule,
