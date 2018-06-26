@@ -1,7 +1,10 @@
+import { CustomerHomeComponent } from './../customer-home/customer-home.component';
 import { Component, OnInit, ViewChildren, ElementRef } from '@angular/core';
 import { FormGroup, FormBuilder, Validators, FormControlName, FormArray } from '@angular/forms';
 import { GenericValidator } from '../../../shared/directives/validations/generic-validator';
 import { TranslateService } from 'ng2-translate';
+// tslint:disable-next-line:import-blacklist
+import { Observable } from 'rxjs/Rx';
 
 @Component({
   selector: 'app-create-customer',
@@ -45,4 +48,17 @@ export class CreateCustomerComponent implements OnInit {
   saveCustomer() {
 
   }
+
+  // tslint:disable-next-line:use-life-cycle-interface
+  ngAfterViewInit(): void {
+    // Watch for the blur event from any input element on the form.
+    const controlBlurs: Observable<any>[] = this.formInputElements
+      .map((formControl: ElementRef) => Observable.fromEvent(formControl.nativeElement, 'blur'));
+
+    // Merge the blur event observable with the valueChanges observable
+    Observable.merge(this.createCustomerForm.valueChanges, ...controlBlurs).debounceTime(800).subscribe(value => {
+      this.displayMessage = this.genericValidator.processMessages(this.createCustomerForm);
+    });
+  }
+
 }
