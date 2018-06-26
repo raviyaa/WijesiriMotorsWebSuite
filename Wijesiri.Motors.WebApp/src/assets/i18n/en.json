@@ -9,28 +9,30 @@
   },
   "CUSTOMER": {
     "ADD_NEW": {
-      "TITLE":"Add New Customer",
+      "TITLE": "Add New Customer",
       "LBL_FIRST_NAME": "First Name",
       "LBL_LAST_NAME": "Last Name",
       "LBL_TYPE": "Type",
       "LBL_ADDRESS": "Address",
-      "LBL_TP": "Tel"
-    },
-    "VALIDATIONS": {
-      "firstName": {
-        "required": "First Name  is required."
-      },
-      "lastName": {
-        "required": "Last Name is required."
-      },
-      "type": {
-        "required": "Type is required."
-      },
-      "address": {
-        "required": "address is required."
-      },
-      "tp": {
-        "required": "Tel is required."
+      "LBL_TP": "Tel",
+      "BTN_SAVE": "Save",
+      "BTN_CANCEL": "Cancel",
+      "VALIDATIONS": {
+        "firstName": {
+          "required": "First Name  is required."
+        },
+        "lastName": {
+          "required": "Last Name is required."
+        },
+        "type": {
+          "required": "Type is required."
+        },
+        "address": {
+          "required": "address is required."
+        },
+        "tp": {
+          "required": "Tel is required."
+        }
       }
     }
   }

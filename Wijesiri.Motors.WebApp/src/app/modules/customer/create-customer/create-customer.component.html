@@ -1,4 +1,4 @@
-<div class="animated fadeIn">
+<!-- <div class="animated fadeIn">
     <div class="row">
         <div class="col-md-6">
             <div class="card">
@@ -14,7 +14,7 @@
                             <textarea matInput placeholder="Leave a comment"></textarea>
                         </mat-form-field>
                     </form>
-                    <!--    <form class="form-horizontal ng-untouched ng-pristine ng-valid" novalidate (ngSubmit)="saveCustomer()" [formGroup]="createCustomerForm" enctype="multipart/form-data">
+                   
                      
                         <div class="form-group row">
                             <label class="col-md-3 col-form-label" for="hf-email">Email</label>
@@ -41,7 +41,7 @@
                             </div>
                         </div>
                     </form> -->
-                </div>
+<!--                 </div>
                 <div class="card-footer">
                     <button class="btn btn-sm btn-primary" type="submit">
                         <i class="fa fa-dot-circle-o"></i> Submit</button>
@@ -50,5 +50,73 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>  -->
+
+<div class="panel">
+    <mat-toolbar>
+        <span class="mat-toolbar-title">{{pageTitle}}</span>
+    </mat-toolbar>
+
+    <div class="panel-body">
+        <form class="form-horizontal" novalidate (ngSubmit)="saveCustomer()" [formGroup]="createCustomerForm" enctype="multipart/form-data">
+            <fieldset>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group" [ngClass]="{'has-error': displayMessage.firstName }">
+                            <mat-form-field>
+                                <input matInput id="firstName" placeholder="{{ 'CUSTOMER.ADD_NEW.LBL_FIRST_NAME' | translate }}" formControlName="firstName">
+                                <mat-error *ngIf="displayMessage.firstName">
+                                    {{displayMessage.firstName}}
+                                </mat-error>
+                            </mat-form-field>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group" [ngClass]="{'has-error': displayMessage.lastName }">
+                            <mat-form-field>
+                                <input matInput id="lastName" placeholder="{{ 'CUSTOMER.ADD_NEW.LBL_LAST_NAME' | translate }}" formControlName="lastName">
+                                <mat-error *ngIf="displayMessage.lastName">
+                                    {{displayMessage.lastName}}
+                                </mat-error>
+                            </mat-form-field>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group" [ngClass]="{'has-error': displayMessage.address }">
+                            <mat-form-field>
+                                <input matInput id="address" placeholder="{{ 'CUSTOMER.ADD_NEW.LBL_ADDRESS' | translate }}" formControlName="address">
+                                <mat-error *ngIf="displayMessage.address">
+                                    {{displayMessage.address}}
+                                </mat-error>
+                            </mat-form-field>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group" [ngClass]="{'has-error': displayMessage.tp }">
+                            <mat-form-field>
+                                <input matInput id="tel" placeholder="{{ 'CUSTOMER.ADD_NEW.LBL_TP' | translate }}" formControlName="tel">
+                                <mat-error *ngIf="displayMessage.tp">
+                                    {{displayMessage.tp}}
+                                </mat-error>
+                            </mat-form-field>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button mat-raised-button type="submit" [disabled]='!createCustomerForm.valid' color="primary"> {{ 'CUSTOMER.ADD_NEW.BTN_SAVE' | translate }}</button>
+                    <button mat-raised-button type="button" (click)="cancelClick()"> {{ 'CUSTOMER.ADD_NEW.BTN_CANCEL' | translate }}</button>
+                </div>
+            </fieldset>
+        </form>
+        <div class='has-error' *ngIf='errorMessage'>{{errorMessage}}</div>
     </div>
 </div>

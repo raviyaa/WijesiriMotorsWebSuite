@@ -38,7 +38,7 @@ const materialModules = [
   imports: [
     FormsModule,
     RouterModule,
-    SharedModule.forRoot(),
+    SharedModule,
     CustomerRoutingModule,
     ChartsModule,
     BsDropdownModule,
@@ -46,11 +46,7 @@ const materialModules = [
     ReactiveFormsModule,
     CommonModule,
     ButtonsModule.forRoot(),
-    TranslateModule.forRoot({
-      provide: TranslateLoader,
-      useFactory: (createTranslateLoader),
-      deps: [Http]
-    }),
+    TranslateModule
   ],
   declarations: [
     CustomerHomeComponent,
