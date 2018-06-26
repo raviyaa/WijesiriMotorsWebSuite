@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-create-customer',
@@ -6,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./create-customer.component.scss']
 })
 export class CreateCustomerComponent implements OnInit {
-
-  constructor() { }
+  createCustomerForm: FormGroup;
+  constructor(
+    private fb: FormBuilder
+  ) { }
 
   ngOnInit() {
+    this.createCustomerForm = this.fb.group({
+      firstName: ['', Validators.required]
+    });
   }
 
 }

@@ -64,6 +64,7 @@ import {
   MatFormFieldModule
 } from '@angular/material';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 export function createTranslateLoader(http: Http) {
   return new TranslateStaticLoader(http, './assets/i18n', '.json');
@@ -82,6 +83,7 @@ export function createTranslateLoader(http: Http) {
     }),
     ChartsModule,
     BrowserModule,
+    BrowserAnimationsModule,
     AppAsideModule,
     AppBreadcrumbModule.forRoot(),
     FormsModule,
@@ -92,9 +94,10 @@ export function createTranslateLoader(http: Http) {
     PerfectScrollbarModule,
     BsDropdownModule.forRoot(),
     TabsModule.forRoot(),
-    LoginModule
+    LoginModule,
+    MatInputModule
   ],
-  exports: [DefaultLayoutComponent],
+  exports: [DefaultLayoutComponent, MatInputModule],
   declarations: [
     AppComponent,
     DefaultLayoutComponent

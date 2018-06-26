@@ -34,14 +34,14 @@ const materialModules = [
 @NgModule({
   imports: [
     CommonModule,
-    materialModules,
+   // materialModules,
     RouterModule
   ],
   declarations: [
     TileMenuComponent
   ],
   exports: [
-    materialModules,
+   // materialModules,
     TileMenuComponent
   ],
   providers: [
