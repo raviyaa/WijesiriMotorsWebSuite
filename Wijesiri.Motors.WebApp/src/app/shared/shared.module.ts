@@ -41,7 +41,7 @@ const materialModules = [
     TileMenuComponent
   ],
   exports: [
-   // materialModules,
+    materialModules,
     TileMenuComponent
   ],
   providers: [

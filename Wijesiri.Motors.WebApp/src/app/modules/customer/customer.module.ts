@@ -21,19 +21,6 @@ import { TileMenuComponent } from '../../shared/components/tile-menu/tile-menu.c
 import { TranslateModule, TranslateLoader } from 'ng2-translate';
 import { Http } from '@angular/http';
 
-const materialModules = [
-  MatButtonModule,
-  MatMenuModule,
-  MatToolbarModule,
-  MatIconModule,
-  MatCardModule,
-  MatSidenavModule,
-  MatFormFieldModule,
-  MatInputModule,
-  MatTooltipModule
-];
-
-
 @NgModule({
   imports: [
     FormsModule,
@@ -42,7 +29,6 @@ const materialModules = [
     CustomerRoutingModule,
     ChartsModule,
     BsDropdownModule,
-    materialModules,
     ReactiveFormsModule,
     CommonModule,
     ButtonsModule.forRoot(),
