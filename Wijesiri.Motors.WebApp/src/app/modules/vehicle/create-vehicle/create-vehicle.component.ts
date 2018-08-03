@@ -39,7 +39,6 @@ export class CreateVehicleComponent implements OnInit {
       });
     this.makers = config.CAR_MAKERS;
     this.types = config.CAR_TYPES;
-    this.years = this.generateDates();
   }
 
   ngAfterViewInit(): void {
@@ -58,18 +57,8 @@ export class CreateVehicleComponent implements OnInit {
       regNo: ['', Validators.required],
       make: ['', Validators.required],
       model: ['', Validators.required],
-      type: ['', Validators.required],
-      year: ['', Validators.required]
+      type: ['', Validators.required] 
     });
   }
 
-  generateDates() {
-    var year = new Date().getFullYear();
-    var range = [];
-    range.push(year);
-    for (var i = 1; i < 99; i++) {
-      range.push(year - i);
-    }
-    return range;
-  }
 }
