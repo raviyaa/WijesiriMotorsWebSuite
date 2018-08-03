@@ -12,12 +12,13 @@ export const APP_DI_CONFIG: IAppConfig = {
   IMAGE_URL: 'http://localhost:4200/',
   // IMAGE_URL: 'http://52.230.10.181:5003/uploadFile-',
   RESERVED_STATUS: {
-        code: 'RSV',
-        description: 'Reserved',
-        color: { code: '#99699e' }
+    code: 'RSV',
+    description: 'Reserved',
+    color: { code: '#99699e' }
   },
-  IMAGE_NAME_PREFIX : 'uploadFile'
-
+  IMAGE_NAME_PREFIX: 'uploadFile',
+  CAR_MAKERS: ["Toyota", "Nissan", "Mitsubishi", "Leyland", "Suzuki", "Maruti", "Mazda", "Honda", "Datsun", "Isuzu"],
+  CAR_TYPES: ["Car","Van","Cab","Lorry","Bus"]
 };
 
 export let APP_CONFIG = new InjectionToken<IAppConfig>('app.config');

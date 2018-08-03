@@ -35,5 +35,34 @@
         }
       }
     }
+  },
+  "VEHICLE": {
+    "ADD_NEW": {
+      "TITLE": "Add New Vehicle",
+      "LBL_MAKE": "Make",
+      "LBL_MODEL": "Model",
+      "LBL_YEAR": "Year",
+      "LBL_REGNO": "Registration Number",
+      "LBL_TYPE": "Type",
+      "BTN_SAVE": "Save",
+      "BTN_CANCEL": "Cancel",
+      "VALIDATIONS": {
+        "make": {
+          "required": "Make  is required."
+        },
+        "model": {
+          "required": "Model is required."
+        },
+        "year": {
+          "required": "Year is required."
+        },
+        "regNo": {
+          "required": "Reg No is required."
+        },
+        "type": {
+          "required": "Type is required."
+        }
+      }
+    }
   }
 }

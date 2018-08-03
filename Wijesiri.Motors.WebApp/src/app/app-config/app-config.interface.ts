@@ -6,6 +6,8 @@ export interface IAppConfig {
   IMAGE_URL: string;
   RESERVED_STATUS: Status;
   IMAGE_NAME_PREFIX: string;
+  CAR_MAKERS: string[];
+  CAR_TYPES: string[];
 }
 
 interface Language {

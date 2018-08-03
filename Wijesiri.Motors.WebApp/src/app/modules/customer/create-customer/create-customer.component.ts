@@ -3,7 +3,6 @@ import { Component, OnInit, ViewChildren, ElementRef } from '@angular/core';
 import { FormGroup, FormBuilder, Validators, FormControlName, FormArray } from '@angular/forms';
 import { GenericValidator } from '../../../shared/directives/validations/generic-validator';
 import { TranslateService } from 'ng2-translate';
-// tslint:disable-next-line:import-blacklist
 import { Observable } from 'rxjs/Rx';
 
 @Component({

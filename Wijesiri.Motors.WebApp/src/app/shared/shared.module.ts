@@ -14,10 +14,11 @@ import {
   MatToolbarModule,
   MatIconModule,
   MatCardModule,
-  MatSidenavModule, MatFormFieldModule, MatInputModule, MatTooltipModule
+  MatSidenavModule, MatFormFieldModule, MatInputModule, MatTooltipModule, MatSelect, MatSelectModule, MatAutocompleteModule
 } from '@angular/material';
 import { TileMenuComponent } from './components/tile-menu/tile-menu.component';
 import { BrowserModule } from '@angular/platform-browser';
+import { TranslateModule } from 'ng2-translate';
 
 const materialModules = [
   MatButtonModule,
@@ -28,13 +29,16 @@ const materialModules = [
   MatSidenavModule,
   MatFormFieldModule,
   MatInputModule,
-  MatTooltipModule
+  MatTooltipModule,
+  MatSelectModule,
+  MatAutocompleteModule
 ];
 
 @NgModule({
   imports: [
     CommonModule,
    // materialModules,
+   TranslateModule,
     RouterModule
   ],
   declarations: [
@@ -42,7 +46,8 @@ const materialModules = [
   ],
   exports: [
     materialModules,
-    TileMenuComponent
+    TileMenuComponent,
+    TranslateModule
   ],
   providers: [
     AuthenticationService,

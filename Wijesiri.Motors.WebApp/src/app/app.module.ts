@@ -31,38 +31,6 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { IAppConfig } from './app-config/app-config.interface';
 import { APP_CONFIG, APP_DI_CONFIG } from './app-config/app-config.constants';
 import { SharedService } from './shared/shared.service';
-import {
-  MatAutocompleteModule,
-  MatButtonModule,
-  MatButtonToggleModule,
-  MatCardModule,
-  MatCheckboxModule,
-  MatChipsModule,
-  MatDatepickerModule,
-  MatDialogModule,
-  MatExpansionModule,
-  MatGridListModule,
-  MatIconModule,
-  MatInputModule,
-  MatListModule,
-  MatMenuModule,
-  MatNativeDateModule,
-  MatProgressBarModule,
-  MatProgressSpinnerModule,
-  MatRadioModule,
-  MatRippleModule,
-  MatSelectModule,
-  MatSidenavModule,
-  MatSliderModule,
-  MatSlideToggleModule,
-  MatSnackBarModule,
-  MatTabsModule,
-  MatToolbarModule,
-  MatTooltipModule,
-  MatPaginatorModule,
-  MatStepperModule,
-  MatFormFieldModule
-} from '@angular/material';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -94,10 +62,9 @@ export function createTranslateLoader(http: Http) {
     PerfectScrollbarModule,
     BsDropdownModule.forRoot(),
     TabsModule.forRoot(),
-    LoginModule,
-    MatInputModule
+    LoginModule
   ],
-  exports: [DefaultLayoutComponent, MatInputModule],
+  exports: [DefaultLayoutComponent],
   declarations: [
     AppComponent,
     DefaultLayoutComponent

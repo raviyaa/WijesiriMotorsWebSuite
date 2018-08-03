@@ -31,8 +31,8 @@ import { Http } from '@angular/http';
     BsDropdownModule,
     ReactiveFormsModule,
     CommonModule,
-    ButtonsModule.forRoot(),
-    TranslateModule
+    ButtonsModule.forRoot()
+    
   ],
   declarations: [
     CustomerHomeComponent,
