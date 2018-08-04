@@ -3,21 +3,17 @@
 var async = require('async'),
     httpStatus = require('http-status'),
     errors = require('common-errors'),
-    _ = require('lodash'),
-    moment = require('moment'),
-    momenttz = require('moment-timezone'),
-    mongoose = require('mongoose');
+    _ = require('lodash');
 
-var config = require('../config/config');
-var utils = require('../helpers/utils'),
-    logger = require('../helpers/logger'),
-    userService = require('../services/userService/userService');
+var config = require('../../config/config');
+var utils = require('../../helpers/utils'),
+    logger = require('../../helpers/logger'),
+    userService = require('../../services/userService/userService');
 
 
 function addUser(req, res) {
     async.waterfall([
         function (callback) {
-            console.log(req.body);
             userService.addUser(req.body, callback);
         }
     ], function (err, result) {
@@ -38,11 +34,9 @@ function getListOfUsers(req, res) {
 function login(req, res) {
     async.waterfall([
         function (callback) {
-            console.log(req.body);
             var criteria = {
                 email: req.body.email
             }
-            console.log(criteria);
             userService.login(criteria, callback);
         }
     ], function (err, result) {

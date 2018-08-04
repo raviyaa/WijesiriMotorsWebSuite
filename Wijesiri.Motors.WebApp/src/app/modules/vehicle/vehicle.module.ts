@@ -8,6 +8,7 @@ import { VehicleHomeComponent } from './vehicle-home/vehicle-home.component';
 import { SharedModule } from '../../shared/shared.module';
 import { CreateVehicleComponent } from './create-vehicle/create-vehicle.component';
 import { CommonModule } from '@angular/common';
+import { VehicleService } from './vehicle.service';
 
 @NgModule({
   imports: [
@@ -23,6 +24,9 @@ import { CommonModule } from '@angular/common';
   declarations: [
     VehicleHomeComponent,
     CreateVehicleComponent
-  ]
+  ],
+  providers: [
+    VehicleService
+  ],
 })
 export class VehicleModule { }

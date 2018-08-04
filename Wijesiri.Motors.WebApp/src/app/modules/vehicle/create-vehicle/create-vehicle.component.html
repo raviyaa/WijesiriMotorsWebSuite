@@ -64,7 +64,18 @@
                         </div>
                     </div>
                 </div>
-            
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group" [ngClass]="{'has-error': displayMessage.year }">
+                            <mat-form-field>
+                                <input matInput id="regNo" placeholder="{{ 'VEHICLE.ADD_NEW.LBL_YEAR' | translate }}" formControlName="year">
+                                <mat-error *ngIf="displayMessage.year">
+                                    {{displayMessage.year}}
+                                </mat-error>
+                            </mat-form-field>
+                        </div>
+                    </div>
+                </div>
                 <div class="form-group">
                     <button mat-raised-button type="submit" [disabled]='!createVehicleForm.valid' color="primary"> {{ 'VEHICLE.ADD_NEW.BTN_SAVE' | translate }}</button>
                     <button mat-raised-button type="button" (click)="cancelClick()"> {{ 'VEHICLE.ADD_NEW.BTN_CANCEL' | translate }}</button>

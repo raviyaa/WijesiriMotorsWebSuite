@@ -4,7 +4,8 @@ import { ISericeUrl } from './app-config.interface';
 
 
 export const APP_SERVICE_CONFIG: ISericeUrl = {
-    AUTHENTICATION_SERVICE_URL: 'http://localhost:3000/'
+    AUTHENTICATION_SERVICE_URL: 'http://localhost:3000/',
+    VEHICLE_SERVICE_URL: 'http://localhost:3000/'
 
 };
 

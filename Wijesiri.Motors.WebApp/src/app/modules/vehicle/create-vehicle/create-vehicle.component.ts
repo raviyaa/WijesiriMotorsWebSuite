@@ -1,10 +1,12 @@
+import { VehicleService } from './../vehicle.service';
+import { IAppConfig } from './../../../app-config/app-config.interface';
 import { Component, OnInit, ElementRef, ViewChildren, Inject } from '@angular/core';
 import { FormControlName, FormGroup, FormArray, FormBuilder, Validators } from '@angular/forms';
 import { GenericValidator } from '../../../shared/directives/validations/generic-validator';
 import { TranslateService } from 'ng2-translate';
 import { Observable } from 'rxjs/Rx';
-import { IAppConfig } from '../../../app-config/app-config.interface';
 import { APP_CONFIG } from '../../../app-config/app-config.constants';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-create-vehicle',
@@ -20,7 +22,6 @@ export class CreateVehicleComponent implements OnInit {
   genericValidator: GenericValidator;
   makers: any;
   types: any;
-  years: any;
   formData: FormData = new FormData();
   get tags(): FormArray {
     return <FormArray>this.createVehicleForm.get('tags');
@@ -29,7 +30,9 @@ export class CreateVehicleComponent implements OnInit {
   constructor(
     private fb: FormBuilder,
     private translateService: TranslateService,
+    private location: Location,
     @Inject(APP_CONFIG) config: IAppConfig,
+    private vehicleService: VehicleService
   ) {
 
     this.translateService.get('VEHICLE.ADD_NEW.VALIDATIONS').subscribe(
@@ -38,7 +41,7 @@ export class CreateVehicleComponent implements OnInit {
         this.genericValidator = new GenericValidator(this.validationMessages);
       });
     this.makers = config.CAR_MAKERS;
-    this.types = config.CAR_TYPES;
+    this.types = config.CAR_MAKERS;
   }
 
   ngAfterViewInit(): void {
@@ -57,8 +60,29 @@ export class CreateVehicleComponent implements OnInit {
       regNo: ['', Validators.required],
       make: ['', Validators.required],
       model: ['', Validators.required],
-      type: ['', Validators.required] 
+      type: ['', Validators.required],
+      year: ['', Validators.required]
     });
   }
 
+  saveVehicle() {
+    console.log(this.createVehicleForm.value);
+    if (this.createVehicleForm.dirty && this.createVehicleForm.valid) {
+
+      this.vehicleService.addVehicle(this.createVehicleForm.value)
+        .subscribe(
+          (data) => {
+            console.log(data);
+            this.cancelClick();
+          },
+          (error: any) => {
+            console.log(error);
+          }
+        );
+
+    }
+  }
+  cancelClick() {
+    this.location.back();
+  }
 }

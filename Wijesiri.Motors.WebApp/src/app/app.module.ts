@@ -1,3 +1,4 @@
+import { NgxSpinnerModule } from 'ngx-spinner';
 import { RouterModule } from '@angular/router';
 import { NgModule, Inject } from '@angular/core';
 import { LocationStrategy, HashLocationStrategy, APP_BASE_HREF } from '@angular/common';
@@ -62,7 +63,8 @@ export function createTranslateLoader(http: Http) {
     PerfectScrollbarModule,
     BsDropdownModule.forRoot(),
     TabsModule.forRoot(),
-    LoginModule
+    LoginModule,
+    NgxSpinnerModule
   ],
   exports: [DefaultLayoutComponent],
   declarations: [

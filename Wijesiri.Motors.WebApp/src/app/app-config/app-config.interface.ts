@@ -28,4 +28,5 @@ interface Color {
 export interface ISericeUrl {
 
   AUTHENTICATION_SERVICE_URL: string;
+  VEHICLE_SERVICE_URL: string;
 }

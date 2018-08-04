@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { DefaultLayoutComponent } from './shared/components/default-layout/default-layout.component';
+import { CustomPreloading } from './custom-preloading';
 
 
 export const routes: Routes = [
@@ -26,27 +27,34 @@ export const routes: Routes = [
     children: [
       {
         path: 'dashboard',
-        loadChildren: 'app/modules/dashboard/dashboard.module#DashboardModule'
+        loadChildren: 'app/modules/dashboard/dashboard.module#DashboardModule',
+        data: {preload: true}
       },
       {
         path: 'estimate',
-        loadChildren: 'app/modules/estimate/estimate.module#EstimateModule'
+        loadChildren: 'app/modules/estimate/estimate.module#EstimateModule',
+        data: {preload: true}
       },
       {
         path: 'customer',
-        loadChildren: 'app/modules/customer/customer.module#CustomerModule'
+        loadChildren: 'app/modules/customer/customer.module#CustomerModule',
+        data: {preload: true}
       },
       {
         path: 'vehicle',
-        loadChildren: 'app/modules/vehicle/vehicle.module#VehicleModule'
+        loadChildren: 'app/modules/vehicle/vehicle.module#VehicleModule',
+        data: {preload: true}
       }
     ]
   }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  imports: [RouterModule.forRoot(routes, {preloadingStrategy: CustomPreloading })],
+  exports: [RouterModule],
+  providers: [
+    CustomPreloading
+  ]
 })
 export class AppRoutingModule { }
 

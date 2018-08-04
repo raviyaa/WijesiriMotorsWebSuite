@@ -1,3 +1,4 @@
+import { PreloaderService } from './components/preloader/preloader.service';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA, ModuleWithProviders } from '@angular/core';
 import { CommonModule, APP_BASE_HREF } from '@angular/common';
 import { RouterModule } from '@angular/router';
@@ -19,7 +20,7 @@ import {
 import { TileMenuComponent } from './components/tile-menu/tile-menu.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { TranslateModule } from 'ng2-translate';
-
+import { PreloaderComponent } from './components/preloader/preloader.component';
 const materialModules = [
   MatButtonModule,
   MatMenuModule,
@@ -37,12 +38,12 @@ const materialModules = [
 @NgModule({
   imports: [
     CommonModule,
-   // materialModules,
-   TranslateModule,
+    TranslateModule,
     RouterModule
   ],
   declarations: [
-    TileMenuComponent
+    TileMenuComponent,
+    PreloaderComponent
   ],
   exports: [
     materialModules,
@@ -51,7 +52,8 @@ const materialModules = [
   ],
   providers: [
     AuthenticationService,
-    SharedService
+    SharedService,
+    PreloaderService
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })

@@ -3,7 +3,9 @@
 var express = require('express');
 
 
-var userController = require('./controllers/userController');
+var userController = require('./controllers/userController/userController');
+var vehicleController = require('./controllers/vehicleController/vehicleController');
+
 
 module.exports = function () {
 
@@ -16,6 +18,9 @@ module.exports = function () {
     router.post('/addUser', userController.addUser);
     router.get('/getListOfUsers', userController.getListOfUsers);
     router.post('/login', userController.login);
+
+    router.post('/addVehicle', vehicleController.addVehicle);
+    router.get('/getListOfVehicles', vehicleController.getListOfVehicles);
 
     return router;
 };
