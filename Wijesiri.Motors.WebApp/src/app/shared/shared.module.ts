@@ -9,18 +9,20 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TabsModule } from 'ngx-bootstrap/tabs';
+import { DataTableModule } from 'angular2-datatable';
 import {
   MatButtonModule,
   MatMenuModule,
   MatToolbarModule,
   MatIconModule,
   MatCardModule,
-  MatSidenavModule, MatFormFieldModule, MatInputModule, MatTooltipModule, MatSelect, MatSelectModule, MatAutocompleteModule
+  MatSidenavModule, MatFormFieldModule, MatInputModule, MatTooltipModule, MatSelect, MatSelectModule, MatAutocompleteModule, MatPaginatorModule
 } from '@angular/material';
 import { TileMenuComponent } from './components/tile-menu/tile-menu.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { TranslateModule } from 'ng2-translate';
 import { PreloaderComponent } from './components/preloader/preloader.component';
+
 const materialModules = [
   MatButtonModule,
   MatMenuModule,
@@ -32,14 +34,17 @@ const materialModules = [
   MatInputModule,
   MatTooltipModule,
   MatSelectModule,
-  MatAutocompleteModule
+  MatAutocompleteModule,
+  MatPaginatorModule,
+  DataTableModule
 ];
 
 @NgModule({
   imports: [
     CommonModule,
     TranslateModule,
-    RouterModule
+    RouterModule,
+    materialModules
   ],
   declarations: [
     TileMenuComponent,

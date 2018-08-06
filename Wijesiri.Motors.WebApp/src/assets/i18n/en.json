@@ -63,6 +63,15 @@
           "required": "Type is required."
         }
       }
+    },
+    "TABLE_COL": {
+      "LBL_MAKE": "Make",
+      "LBL_MODEL": "Model",
+      "LBL_YEAR": "Year",
+      "LBL_REGNO": "Registration Number",
+      "LBL_TYPE": "Type",
+      "EDIT": "Edit",
+      "DELETE": "Delete"
     }
   }
 }

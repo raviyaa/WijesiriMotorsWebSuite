@@ -1,7 +1,8 @@
 import { PreloaderService } from './../../../shared/components/preloader/preloader.service';
 import { VehicleService } from './../vehicle.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef, ViewChildren } from '@angular/core';
 import { NgxSpinnerService } from 'ngx-spinner';
+import { FormControlName } from '@angular/forms';
 
 @Component({
   selector: 'app-vehicle-home',
@@ -9,6 +10,10 @@ import { NgxSpinnerService } from 'ngx-spinner';
   styleUrls: ['./vehicle-home.component.scss']
 })
 export class VehicleHomeComponent implements OnInit {
+  @ViewChildren(FormControlName, { read: ElementRef }) formInputElements: ElementRef[];
+
+  pageTitle: String = 'Vehicles';
+  vehicles: any;
 
   constructor(
     private vehicleService: VehicleService,
@@ -16,16 +21,25 @@ export class VehicleHomeComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.preloaderService.showPreloader();
-   /*  this.vehicleService.getListOfVehicles()
+    this.loadInitData();
+  }
+
+  loadInitData() {
+    this.vehicleService.getListOfVehicles()
       .subscribe(
         (data) => {
-          console.log(data);
+          this.vehicles = data.result;
         },
         (error: any) => {
           console.log(error);
         }
-      ); */
+      );
   }
 
+  vehicleEditClick(item) {
+    console.log(item);
+  }
+  vehicleItemDeleteClick(item) {
+    console.log(item);
+  }
 }

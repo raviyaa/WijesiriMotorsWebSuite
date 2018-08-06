@@ -1,1 +1,63 @@
-<button mat-raised-button [routerLink]="['create-vehicle']" color="primary">Add New</button>
+<div class='panel'>
+    <mat-toolbar>
+        <span class="mat-toolbar-title">{{pageTitle}}</span>
+        <button mat-raised-button [routerLink]="['create-vehicle']" color="primary">Add New</button>
+    </mat-toolbar>
+    <div class='panel-body'>
+        <div class='table-responsive'>
+            <table class="table table-sm table-bordered" [mfData]="vehicles" #mf="mfDataTable" [mfRowsOnPage]="rowsOnPage">
+                <thead class="thead-default">
+                    <tr>
+                        <th>
+                            <mfDefaultSorter by="EMenu Item Name">{{ 'VEHICLE.TABLE_COL.LBL_REGNO' | translate }}</mfDefaultSorter>
+                        </th>
+
+                        <th>
+                            <mfDefaultSorter by="EMenu Types">{{ 'VEHICLE.TABLE_COL.LBL_MAKE' | translate }}</mfDefaultSorter>
+                        </th>
+
+                        <th>
+                            <mfDefaultSorter by="EMenu Category">{{ 'VEHICLE.TABLE_COL.LBL_MODEL' | translate }}</mfDefaultSorter>
+                        </th>
+
+                        <th>
+                            <mfDefaultSorter by="Description">{{ 'VEHICLE.TABLE_COL.LBL_YEAR' | translate }}</mfDefaultSorter>
+                        </th>
+                        <th>
+
+                            <mfDefaultSorter by="Image Url">{{ 'VEHICLE.TABLE_COL.LBL_TYPE' | translate }}</mfDefaultSorter>
+                        </th>
+                        <th style="width:50px; text-align:center;">{{ 'VEHICLE.TABLE_COL.EDIT' | translate }}</th>
+                        <th style="width:50px; text-align:center;">{{ 'VEHICLE.TABLE_COL.DELETE' | translate }}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of vehicles">
+                        <td>{{item.regNo}}</td>
+                        <td>{{item.make}}</td>
+                        <td>{{item?.model}}</td>
+                        <td>{{item?.year}}</td>
+                        <td>{{item?.type}}</td>
+                        <td style="text-align:center;">
+                            <button role="button" href="#" class="btn btn-sm btn-warning" (click)="vehicleEditClick(item)">
+                                <i class="fa fa-edit"></i>
+                            </button>
+                        </td>
+                        <td style="text-align:center;">
+                            <button role="button" class="btn btn-sm btn-danger" (click)="vehicleItemDeleteClick(item)">
+                                <i class="fa fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="8">
+                            <mfBootstrapPaginator [rowsOnPageSet]="[5,10,15]"></mfBootstrapPaginator>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>
